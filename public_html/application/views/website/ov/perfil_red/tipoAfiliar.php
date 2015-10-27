@@ -12,17 +12,19 @@
 <div class="well">
  <fieldset>
 	<legend>Afiliar</legend>
-						<div class="col-lg-6 col-sm-4 col-md-4 col-xs-12">
+						<div class="col-lg-3 col-sm-3 col-md-3 col-xs-12">
+						</div>
+					<div class="col-lg-3 col-sm-3 col-md-3 col-xs-12">
 						<a href="afiliar?tipo=1">
-							<div class="well well-sm txt-color-white text-center link_dashboard" style="background:#60a917">
+							<div class="well well-sm txt-color-white text-center link_dashboard" style="background:#606060">
 								<i class="fa fa-edit fa-3x"></i>
 								<h5>Nuevo Afiliado</h5>
 							</div>	
 						</a>
 					</div>
-					<div class="col-lg-6 col-sm-4 col-md-4 col-xs-12">
+					<div class="col-lg-3 col-sm-3 col-md-3 col-xs-12">
 						<a href="afiliar?tipo=2">
-							<div class="well well-sm txt-color-white text-center link_dashboard" style="background:#60a917">
+							<div class="well well-sm txt-color-white text-center link_dashboard" style="background:#606060">
 								<i class="fa fa-user fa-3x"></i>
 								<h5>Afiliado Existente</h5>
 							</div>	

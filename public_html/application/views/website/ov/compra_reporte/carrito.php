@@ -46,7 +46,7 @@
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only"> Toggle navigation </span> <span class="icon-bar"> </span> <span class="icon-bar"> </span> <span class="icon-bar"> </span> </button>
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-cart"> <i class="fa fa-shopping-cart colorWhite fa-2x"> </i> <span class="cartRespons colorWhite"> Cart (<?php echo $this->cart->total_items(); ?> ) </span> </button>
-      <a style="color :#263569; margin-left:3rem;" class="navbar-brand titulo_carrito" href="/ov/dashboard" > <i class="fa fa-home"></i> Menu &nbsp;</a> 
+      <a style="color :#fff; margin-left:3rem;" class="navbar-brand titulo_carrito" href="/ov/dashboard" > <i class="fa fa-home"></i> Menu &nbsp;</a> 
       
       <!-- this part for mobile -
       <div class="search-box pull-right hidden-lg hidden-md hidden-sm">
@@ -276,7 +276,7 @@
 											<div class="carousel-inner">
 												<!-- Slide 1 -->
 												<div class="item active">
-													<img src="/template/img/demo/pinkost.png" alt="">
+													<img src="/logo.png" alt="">
 													<div class="carousel-caption caption-right">
 												<!--  		<h4>Title 1</h4>
 														<p>
@@ -288,7 +288,7 @@
 												</div>
 												<!-- Slide 2 -->
 												<div class="item">
-													<img src="/template/img/demo/KosTable1.png" alt="">
+													<img src="/logo.png" alt="">
 													<div class="carousel-caption caption-left">
 													<!--  	<h4>Title 2</h4>
 														<p>
@@ -300,28 +300,28 @@
 												</div>
 												<!-- Slide 3 -->
 												<div class="item">
-													<img src="/template/img/demo/game-kost-1.png" alt="">
+													<img src="/logo.png" alt="">
 												<!--	<div class="carousel-caption">
 														<h4>A very long thumbnail title here to fill the space</h4>
 														<br>
 													</div> -->
 												</div>
 												<div class="item">
-													<img src="/template/img/demo/Vpskost1.png" alt="">
+													<img src="/logo.png" alt="">
 												<!--	<div class="carousel-caption">
 														<h4>A very long thumbnail title here to fill the space</h4>
 														<br>
 													</div> -->
 												</div>
 												<div class="item">
-													<img src="/template/img/demo/appkkost1.png" alt="">
+													<img src="/logo.png" alt="">
 												<!--	<div class="carousel-caption">
 														<h4>A very long thumbnail title here to fill the space</h4>
 														<br>
 													</div> -->
 												</div>
 												<div class="item">
-													<img src="/template/img/demo/pekeylogo.png" alt="">
+													<img src="/logo.png" alt="">
 												<!--	<div class="carousel-caption">
 														<h4>A very long thumbnail title here to fill the space</h4>
 														<br>

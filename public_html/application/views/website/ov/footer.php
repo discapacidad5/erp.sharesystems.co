@@ -23,33 +23,81 @@
 		$(document).on("click", ".alert1", function(e) {
 		bootbox.dialog({
 			message: 
-					'<table width=""><tr><td>' +	
-								'<a href="/ov/perfil_red/" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_1_color?>"> <span class="iconbox"> <i class="fa fa-user fa-4x"></i> <span>Ver mi Perfil</span> </span> </a>' +		
-					'</td><td>'+				
-								'<a href="/ov/perfil_red/foto" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_2_color?>"> <span class="iconbox"> <i class="fa fa-camera fa-4x"></i> <span>Mi Foto</span> </span> </a>' +							
-					'</td></tr></table>'
+					'<div class="col-sm-5">' +
+						'<a href="perfil_red/">' +
+							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>">'+
+								'<i class="fa fa-user fa-3x"></i>'+
+								'<h5>Perfil</h5>'+
+							'</div>'+
+						'</a>'+
+					'</div>' +	
+					'<div class="col-sm-5">' +
+						'<a href="perfil_red/foto">' +
+							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">' +
+							'<i class="fa fa-camera fa-3x"></i>'+
+							'<h5>Foto</h5>'+
+							'</div>'+
+						'</a>'+
+					'</div>'
 		});
 		});
 		$(document).on("click", ".alert2", function(e) {
 		bootbox.dialog({
-			message: '<table width=""><tr><td>' +
-								'<a href="/ov/perfil_red/TipoAfiliacion" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_2_color?>"> <span class="iconbox"> <i class="fa fa-edit fa-4x"></i> <span>Afiliar</span> </span> </a>' +							
-						'</td><td>'+
-								'<a href="/ov/red/index" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_1_color?>"> <span class="iconbox"> <i class="fa fa-sitemap fa-4x"></i> <span>Mis Redes</span> </span> </a>' +							
-					'</td></tr></table>'
+			message: 	
+					'<div class="col-sm-5">' +
+						'<a href="perfil_red/TipoAfiliacion">' +
+							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>">'+
+								'<i class="fa fa-edit fa-3x"></i>'+
+								'<h5>Afiliar</h5>'+
+							'</div>'+
+						'</a>'+
+					'</div>' +	
+					'<div class="col-sm-5">' +
+						'<a href="red/index">' +
+							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>;">' +
+							'<i class="fa fa-sitemap fa-3x"></i>'+
+							'<h5>Red</h5>'+
+							'</div>'+
+						'</a>'+
+					'</div>'
 		});
 		});
 		$(document).on("click", ".alert3", function(e) {
 		bootbox.dialog({
-			message: '<table width=""><tr><td>' +
-								'<a href="/ov/cgeneral/encuestas" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_1_color?>"> <span class="iconbox"> <i class="fa fa-file-text-o fa-4x"></i> <span>Encuestas</span> </span> </a>' +							
-						'</td><td>'+		
-								'<a href="/ov/cabecera/archivo" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_2_color?>"> <span class="iconbox"> <i class="fa fa-archive fa-4x"></i> <span>Archivero</span> </span> </a>' +	
-						'</td><td>'+
-								'<a href="/ov/cabecera/tablero" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_1_color?>"> <span class="iconbox"> <i class="fa fa-cogs fa-4x"></i> <span>Tablero</span> </span> </a>' +							
-						'</td><td>'+
-								'<a href="/ov/cabecera/compartir" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_2_color?>"> <span class="iconbox"> <i class="fa fa-folder-open-o fa-4x"></i> <span>Compartir</span> </span> </a>' +								
-					'</td></tr></table>'
+			message: 
+					'<table width="100%"><tr><td>'+
+					'<div class="col-sm-5">' +
+						'<a href="cgeneral/encuestas">' +
+							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>">'+
+								'<i class="fa fa-file-text-o fa-3x"></i>'+
+								'<h5>Encuestas</h5>'+
+							'</div>'+
+						'</a>'+
+					'</div>' +	
+					'<div class="col-sm-5">' +
+						'<a href="cabecera/archivo">' +
+							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">' +
+							'<i class="fa fa-archive fa-3x"></i>'+
+							'<h5>Archivero</h5>'+
+							'</div>'+
+						'</a>'+
+					'</div></td></tr><tr><td>'+
+					'<div class="col-sm-5">' +
+						'<a href="cabecera/tablero">' +
+							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>">'+
+								'<i class="fa fa-cogs fa-3x"></i>'+
+								'<h5>Afiliar</h5>'+
+							'</div>'+
+						'</a>'+
+					'</div>' +	
+					'<div class="col-sm-5">' +
+						'<a href="cabecera/compartir">' +
+							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>;">' +
+							'<i class="fa fa-folder-open-o fa-3x"></i>'+
+							'<h5>Compartir</h5>'+
+							'</div>'+
+						'</a>'+
+					'</div></td></tr></table>'
 		});
 		});
 		$(document).on("click", ".alert7", function(e) {

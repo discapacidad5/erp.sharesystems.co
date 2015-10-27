@@ -12,19 +12,19 @@ a:hover, a:focus {
 	color: #2980b9;
 }
 .btn-primary, .btn-primary, .product:hover .add-fav:hover, .product:hover .add-fav.active {
-	background-color: #3498db;
+	background-color: #006;
 	color: #FFFFFF;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary, .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
-	background-color: #39a7f1;
-	border-color: #39a7f1;
-	color: #FFFFFF;
+	background-color: #c2c2c2;
+	border-color: #006;
+	color: #006;
 }
 .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
 	background:  #2c88c5;
 }
 .navbar-tshop {
-	background:#4BBBF8;
+	background:#006;
 }
 .navbar-top {
 	background:#2c88c5;

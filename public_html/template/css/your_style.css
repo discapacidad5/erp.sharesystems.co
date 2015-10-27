@@ -219,9 +219,9 @@ transform: scale(1.05);
 }
 
 .primary{
-background: #2086BF none repeat scroll 0% 0%;
+background: #006 none repeat scroll 0% 0%;
 color: #FFF;
-border-color: #2086BF;
+border-color: #606060;
 }
 
 .botones{
@@ -234,7 +234,7 @@ border-color: #2086BF;
 }
 
 .backHome{
-	background: #2086BF none repeat scroll 0% 0%;
+	background: #006 none repeat scroll 0% 0%;
 	color: #FFF;
 	border-color: #2086BF;
 	border-color: #1F496D;

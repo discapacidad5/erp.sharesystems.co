@@ -80,10 +80,8 @@
 					</li>	
 					<li>
 						<a href="#" class="alert2" ><i class="fa fa-lg fa-fw fa-sitemap"></i> <span class="menu-item-parent">RED</span></a>
-					</li>	
-					<li>
-						<a href="#" class="alert3" ><i class="fa fa-lg fa-fw fa-folder-open-o"></i> <span class="menu-item-parent">GENERAL</span></a>
 					</li>
+					
 					<li>
 						<a href="/ov/compras/carrito?tipo=1" class="alert4" ><i class="fa fa-lg fa-fw fa-shopping-cart"></i> <span class="menu-item-parent">COMPRAS</span></a>
 					</li>	
@@ -98,7 +96,10 @@
 					</li>	
 					<li>
 						<a href="#" class="alert8" ><i class="fa fa-lg fa-fw fa-weixin"></i> <span class="menu-item-parent">COMUNICACIÓN</span></a>
-					</li>		
+					</li>	
+					<li>
+						<a href="#" class="alert3" ><i class="fa fa-lg fa-fw fa-folder-open-o"></i> <span class="menu-item-parent">GENERAL</span></a>
+					</li>	
 					<li>
 						<a href="/ov/compras/reportes" class="alert9" ><i class="fa fa-lg fa-fw fa-dollar"></i> <span class="menu-item-parent">REPORTES</span></a>
 					</li>				
