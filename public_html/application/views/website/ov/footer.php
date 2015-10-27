@@ -2,7 +2,7 @@
 		<div class="page-footer">
 			<div class="row">
 				<div class="col-xs-12 col-sm-6">
-					<span class="txt-color-white">NetworkSoft© 2015</span>
+					<span class="txt-color-white">ShareSystems© 2015</span>
 				</div>
 			</div>
 		</div>
@@ -12,28 +12,40 @@
 		Note: These tiles are completely responsive,
 		you can add as many as you like
 		-->
-		<div id="shortcut">
-			<ul>
-				<li>
-					<a href="#inbox.html" class="jarvismetro-tile big-cubes bg-color-blue"> <span class="iconbox"> <i class="fa fa-envelope fa-4x"></i> <span>Mail <span class="label pull-right bg-color-darken">14</span></span> </span> </a>
-				</li>
-				<li>
-					<a href="#calendar.html" class="jarvismetro-tile big-cubes bg-color-orangeDark"> <span class="iconbox"> <i class="fa fa-calendar fa-4x"></i> <span>Calendar</span> </span> </a>
-				</li>
-				<li>
-					<a href="#gmap-xml.html" class="jarvismetro-tile big-cubes bg-color-purple"> <span class="iconbox"> <i class="fa fa-map-marker fa-4x"></i> <span>Maps</span> </span> </a>
-				</li>
-				<li>
-					<a href="#invoice.html" class="jarvismetro-tile big-cubes bg-color-blueDark"> <span class="iconbox"> <i class="fa fa-book fa-4x"></i> <span>Invoice <span class="label pull-right bg-color-darken">99</span></span> </span> </a>
-				</li>
-				<li>
-					<a href="#gallery.html" class="jarvismetro-tile big-cubes bg-color-greenLight"> <span class="iconbox"> <i class="fa fa-picture-o fa-4x"></i> <span>Gallery </span> </span> </a>
-				</li>
-				<li>
-					<a href="javascript:void(0);" class="jarvismetro-tile big-cubes selected bg-color-pinkDark"> <span class="iconbox"> <i class="fa fa-user fa-4x"></i> <span>My Profile </span> </span> </a>
-				</li>
-			</ul>
-		</div>
+		
+
+		<script>
+			$(document).on("mouseover", ".alert1", function(e) {
+			bootbox.alert("
+				<div id=\"shortcut\">
+						<ul>
+							<li>
+								<a href=\"perfil_red/\" class=\"jarvismetro-tile big-cubes\" style=\"background: #006\"> <span class=\"iconbox\"> <i class=\"fa fa-user fa-4x\"></i> <span>Ver mi Perfil</span> </span> </a>
+							</li>	
+							<li>
+								<a href=\"perfil_red/foto\" class=\"jarvismetro-tile big-cubes\" style=\"background: #606060\"> <span class=\"iconbox\"> <i class=\"fa fa-camera fa-4x\"></i> <span>Mi Foto</span> </span> </a>
+							</li>		
+						</ul>
+			</div>", function() {
+			console.log("Alert Callback");
+			});
+			});
+		</script>
+		
+		
+		<!-- JS dependencies -->
+		
+		<script>
+		$(document).on("click", ".alert1", function(e) {
+		bootbox.dialog({
+			message: '<div class="col-md-12" style="height: 10em">' +
+								'<a href="/perfil_red/" class="jarvismetro-tile big-cubes" style="background: #006"> <span class="iconbox"> <i class="fa fa-user fa-4x"></i> <span>Ver mi Perfil</span> </span> </a>' +							
+								'<a href="/perfil_red/foto" class="jarvismetro-tile big-cubes" style="background: #606060"> <span class="iconbox"> <i class="fa fa-camera fa-4x"></i> <span>Mi Foto</span> </span> </a>' +							
+					'</div>'
+		});
+		});
+		</script>
+
 		<!-- END SHORTCUT AREA -->
 
 		<!--================================================== -->
@@ -49,6 +61,8 @@
 
 		<!-- BOOTSTRAP JS -->
 		<script src="/template/js/bootstrap/bootstrap.min.js"></script>
+
+		<script src="/template/js/bootstrap/bootbox.min.js"></script>
 
 		<!-- CUSTOM NOTIFICATION -->
 		<script src="/template/js/notification/SmartNotification.min.js"></script>

@@ -1,7 +1,7 @@
 <?php $ci = &get_instance();
    	$ci ->load ->model("model_permissions");?>
 			<!-- MAIN CONTENT -->
-			<div id="content" >
+			<div id="main" role="main">
 
 				<!-- row -->
 				<div class="row">

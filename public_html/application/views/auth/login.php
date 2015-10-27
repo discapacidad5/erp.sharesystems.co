@@ -58,7 +58,7 @@
 		<header id="header" class="fade in">
 		<br />
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-				<h1>Sistema Integral de Operaciones NetworkSoft &reg;</h1>
+				<h1>Sistema Integral de Operaciones Share Systems &reg;</h1>
 			</div>
 		</header>
 
@@ -69,7 +69,7 @@
 
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 hidden-xs hidden-sm">
-						<img src="/template/img/login.jpg" class="img2" alt="" >
+						<img src="/logo.png" class="img2" alt="" >
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
 						<div class="header2">
@@ -156,10 +156,10 @@
 			{
 				text-align: center; 
 				color: #FFF !important;
-				background: #2A9BDD !important;
+				background: #006 !important;
 
 			}
-			#compania{width: 45%; margin: 0 auto;}
+			#compania{width: 20%; margin: 0 auto;}
 			#header h1{margin-top: -5px;}
 			#login-form{
 				-webkit-box-shadow: inset 0px 0px 10px #000;
@@ -168,12 +168,12 @@
 			}
 			#enviar{color: #FFF; font-weight: initial;}
 			.header2{text-align: center; padding-bottom: 10px;}
-			.img2{margin-top: 8%}
+			.img2{margin-top: 8%;width: 80%;}
 			#footer
 			{
 				height: 102px;
 				text-align: center;color: #FFF !important;
-				background: #2A9BDD !important;
+				background: #000 !important;
 			}
 		</style>
 		<!-- PACE LOADER - turn this on if you want ajax loading to show (caution: uses lots of memory on iDevices)-->
