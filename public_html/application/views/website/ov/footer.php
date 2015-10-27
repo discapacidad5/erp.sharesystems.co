@@ -14,23 +14,7 @@
 		-->
 		
 
-		<script>
-			$(document).on("mouseover", ".alert1", function(e) {
-			bootbox.alert("
-				<div id=\"shortcut\">
-						<ul>
-							<li>
-								<a href=\"perfil_red/\" class=\"jarvismetro-tile big-cubes\" style=\"background: #006\"> <span class=\"iconbox\"> <i class=\"fa fa-user fa-4x\"></i> <span>Ver mi Perfil</span> </span> </a>
-							</li>	
-							<li>
-								<a href=\"perfil_red/foto\" class=\"jarvismetro-tile big-cubes\" style=\"background: #606060\"> <span class=\"iconbox\"> <i class=\"fa fa-camera fa-4x\"></i> <span>Mi Foto</span> </span> </a>
-							</li>		
-						</ul>
-			</div>", function() {
-			console.log("Alert Callback");
-			});
-			});
-		</script>
+		
 		
 		
 		<!-- JS dependencies -->
@@ -38,10 +22,74 @@
 		<script>
 		$(document).on("click", ".alert1", function(e) {
 		bootbox.dialog({
-			message: '<div class="col-md-12" style="height: 10em">' +
-								'<a href="/perfil_red/" class="jarvismetro-tile big-cubes" style="background: #006"> <span class="iconbox"> <i class="fa fa-user fa-4x"></i> <span>Ver mi Perfil</span> </span> </a>' +							
-								'<a href="/perfil_red/foto" class="jarvismetro-tile big-cubes" style="background: #606060"> <span class="iconbox"> <i class="fa fa-camera fa-4x"></i> <span>Mi Foto</span> </span> </a>' +							
-					'</div>'
+			message: 
+					'<table width=""><tr><td>' +	
+								'<a href="/ov/perfil_red/" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_1_color?>"> <span class="iconbox"> <i class="fa fa-user fa-4x"></i> <span>Ver mi Perfil</span> </span> </a>' +		
+					'</td><td>'+				
+								'<a href="/ov/perfil_red/foto" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_2_color?>"> <span class="iconbox"> <i class="fa fa-camera fa-4x"></i> <span>Mi Foto</span> </span> </a>' +							
+					'</td></tr></table>'
+		});
+		});
+		$(document).on("click", ".alert2", function(e) {
+		bootbox.dialog({
+			message: '<table width=""><tr><td>' +
+								'<a href="/ov/perfil_red/TipoAfiliacion" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_2_color?>"> <span class="iconbox"> <i class="fa fa-edit fa-4x"></i> <span>Afiliar</span> </span> </a>' +							
+						'</td><td>'+
+								'<a href="/ov/red/index" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_1_color?>"> <span class="iconbox"> <i class="fa fa-sitemap fa-4x"></i> <span>Mis Redes</span> </span> </a>' +							
+					'</td></tr></table>'
+		});
+		});
+		$(document).on("click", ".alert3", function(e) {
+		bootbox.dialog({
+			message: '<table width=""><tr><td>' +
+								'<a href="/ov/cgeneral/encuestas" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_1_color?>"> <span class="iconbox"> <i class="fa fa-file-text-o fa-4x"></i> <span>Encuestas</span> </span> </a>' +							
+						'</td><td>'+		
+								'<a href="/ov/cabecera/archivo" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_2_color?>"> <span class="iconbox"> <i class="fa fa-archive fa-4x"></i> <span>Archivero</span> </span> </a>' +	
+						'</td><td>'+
+								'<a href="/ov/cabecera/tablero" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_1_color?>"> <span class="iconbox"> <i class="fa fa-cogs fa-4x"></i> <span>Tablero</span> </span> </a>' +							
+						'</td><td>'+
+								'<a href="/ov/cabecera/compartir" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_2_color?>"> <span class="iconbox"> <i class="fa fa-folder-open-o fa-4x"></i> <span>Compartir</span> </span> </a>' +								
+					'</td></tr></table>'
+		});
+		});
+		$(document).on("click", ".alert7", function(e) {
+		bootbox.dialog({
+			message: '<table width=""><tr><td>' +
+								'<a href="/ov/escuela_negocios/informacion" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_2_color?>"> <span class="iconbox"> <i class="fa fa-info fa-4x"></i> <span>Información</span> </span> </a>' +
+						'</td><td>'+		
+								'<a href="/ov/escuela_negocios/presentaciones" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_1_color?>"> <span class="iconbox"> <i class="fa fa-desktop fa-4x"></i> <span>Presentaciones</span> </span> </a>' +							
+						'</td><td>'+		
+								'<a href="/ov/escuela_negocios/ebooks" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_2_color?>"> <span class="iconbox"> <i class="fa fa-book fa-4x"></i> <span>E-books</span> </span> </a>' +	
+						'</td><td>'+		
+								'<a href="/ov/escuela_negocios/descargas" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_1_color?>"> <span class="iconbox"> <i class="fa fa-download fa-4x"></i> <span>Descargas</span> </span> </a>' +							
+						'</td></tr><tr><td>'+
+								'<a href="/ov/escuela_negocios/promociones" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_1_color?>"> <span class="iconbox"> <i class="fa fa-gift fa-4x"></i> <span>Promociones</span> </span> </a>' +									
+						'</td><td>'+		
+								'<a href="/ov/escuela_negocios/eventos" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_2_color?>"> <span class="iconbox"> <i class="fa fa-calendar fa-4x"></i> <span>Eventos</span> </span> </a>' +							
+						'</td><td>'+		
+								'<a href="/ov/escuela_negocios/noticias" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_1_color?>"> <span class="iconbox"> <i class="fa fa-bullhorn fa-4x"></i> <span>Noticias</span> </span> </a>' +	
+						'</td><td>'+
+								'<a href="/ov/escuela_negocios/videos" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_2_color?>"> <span class="iconbox"> <i class="fa fa-file-video-o fa-4x"></i> <span>Videos</span> </span> </a>' +							
+						'</td></tr><tr><td>'+		
+								'<a href="/ov/escuela_negocios/reconocimientos" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_2_color?>"> <span class="iconbox"> <i class="fa fa-star fa-4x"></i> <span>Reconocimientos</span> </span> </a>' +		
+						'</td><td>'+
+								'<a href="/ov/compras/estadisticas" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_1_color?>"> <span class="iconbox"> <i class="fa fa-bar-chart-o fa-4x"></i> <span>Estadísticas</span> </span> </a>' +											
+					'</td></tr></table>'
+		});
+		});
+		$(document).on("click", ".alert8", function(e) {
+		bootbox.dialog({
+			message: '<table width=""><tr><td>' +
+								'<a href="/ov/cgeneral/soporte_tecnico_ver_redes" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_1_color?>"> <span class="iconbox"> <i class="fa fa-support fa-4x"></i> <span>Support</span> </span> </a>' +							
+						'</td><td>'+		
+								'<a href="/ov/cgeneral/web_personal" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_2_color?>"> <span class="iconbox"> <i class="fa fa-globe fa-4x"></i> <span>Web Personal</span> </span> </a>' +	
+						'</td><td>'+
+								'<a href="/ov/cgeneral/chat" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_1_color?>"> <span class="iconbox"> <i class="fa fa-weixin fa-4x"></i> <span>Chat</span> </span> </a>' +							
+						'</td><td>'+
+								'<a href="/ov/cabecera/email" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_2_color?>"> <span class="iconbox"> <i class="fa fa-envelope fa-4x"></i> <span>E-mail</span> </span> </a>' +								
+						'</td></tr><tr><td>'+
+								'<a href="/ov/cgeneral/videollamada" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_2_color?>"> <span class="iconbox"> <i class="fa fa-video-camera fa-4x"></i> <span>Videollamadas</span> </span> </a>' +																
+					'</td></tr></table>'
 		});
 		});
 		</script>

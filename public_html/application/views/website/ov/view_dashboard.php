@@ -37,6 +37,81 @@
 	   				</script>
 	   			<?php 
 	   	}?>
+
+<!-- collapse menu button -->
+				<div id="hide-menu" class="btn-header">
+					<span> <a href="javascript:void(0);" data-action="toggleMenu" title="Collapse Menu"><i class="fa fa-reorder"></i></a> </span>
+				</div>
+<!-- END collapse menu button -->
+
+<aside id="left-panel">
+
+			<!-- User info -->
+			<div class="login-info">
+				<span> <!-- User image size is adjusted inside CSS, it should stay as it --> 
+					
+					<a >
+						<img src="<?=$user?>" alt="me" class="online" /> 
+						<span>
+							<?=$usuario[0]->nombre?> <span class="semi-bold"><?=$usuario[0]->apellido?></span> 
+						</span>
+						<i class="fa fa-angle-down"></i>
+					</a> 
+					
+				</span>
+			</div>
+			<!-- end user info -->
+
+			<!-- NAVIGATION : This navigation is also responsive
+
+			To make this navigation dynamic please make sure to link the node
+			(the reference to the nav > ul) after page load. Or the navigation
+			will not initialize.
+			-->
+			<nav>
+				<!-- NOTE: Notice the gaps after each icon usage <i></i>..
+				Please note that these links work a bit different than
+				traditional href="" links. See documentation for details.
+				-->
+
+				<ul>					
+					<li>
+						<a href="#" class="alert1" ><i class="fa fa-lg fa-fw fa-user"></i> <span class="menu-item-parent">PERFIL</span></a>
+					</li>	
+					<li>
+						<a href="#" class="alert2" ><i class="fa fa-lg fa-fw fa-sitemap"></i> <span class="menu-item-parent">RED</span></a>
+					</li>	
+					<li>
+						<a href="#" class="alert3" ><i class="fa fa-lg fa-fw fa-folder-open-o"></i> <span class="menu-item-parent">GENERAL</span></a>
+					</li>
+					<li>
+						<a href="/ov/compras/carrito?tipo=1" class="alert4" ><i class="fa fa-lg fa-fw fa-shopping-cart"></i> <span class="menu-item-parent">COMPRAS</span></a>
+					</li>	
+					<li>
+						<a href="/ov/billetera2/index_estado" class="alert5" ><i class="fa fa-lg fa-fw fa-money"></i> <span class="menu-item-parent">ESTADO DE CUENTA</span></a>
+					</li>	
+					<li>
+						<a href="/ov/billetera2/index" class="alert6" ><i class="fa fa-lg fa-fw fa-dollar"></i> <span class="menu-item-parent">BILLETERA</span></a>
+					</li>	
+					<li>
+						<a href="#" class="alert7" ><i class="fa fa-lg fa-fw fa-info"></i> <span class="menu-item-parent">INFO Y CAPACITACIÓN</span></a>
+					</li>	
+					<li>
+						<a href="#" class="alert8" ><i class="fa fa-lg fa-fw fa-weixin"></i> <span class="menu-item-parent">COMUNICACIÓN</span></a>
+					</li>		
+					<li>
+						<a href="/ov/compras/reportes" class="alert9" ><i class="fa fa-lg fa-fw fa-dollar"></i> <span class="menu-item-parent">REPORTES</span></a>
+					</li>				
+				</ul>
+			</nav>
+			<span class="minifyme" data-action="minifyMenu"> 
+				<i class="fa fa-arrow-circle-left hit"></i> 
+			</span>
+
+		</aside>
+
+
+
       <div class="row">
 					<div class="col-sm-12">
 							<div class="well well-sm">
