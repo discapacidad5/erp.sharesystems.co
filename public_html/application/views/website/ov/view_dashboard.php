@@ -40,7 +40,8 @@
 
 <!-- collapse menu button -->
 				<div id="hide-menu" class="btn-header">
-					<span> <a href="javascript:void(0);" data-action="toggleMenu" title="Collapse Menu"><i class="fa fa-reorder"></i></a> </span>
+					<span> <a href="javascript:void(0);" data-action="toggleMenu" title="Collapse Menu"><i class="fa fa-home"></i> Menu &nbsp;
+					</span>
 				</div>
 <!-- END collapse menu button -->
 
@@ -117,7 +118,7 @@
 					<div class="col-sm-12">
 							<div class="well well-sm">
 								<div class="row">
-					      	<div class="col-sm-12 col-md-12 col-lg-6">
+					      	<div class="col-sm-12 col-md-12 col-lg-12">
 										<div class="well well-light well-sm no-margin no-padding">
 											<div class="row">
 												<div class="col-sm-12">
@@ -140,15 +141,15 @@
 
 														<div class="col-sm-3 profile-pic">
 															<img src="<?=$user?>" alt="demo user">
-															<div class="padding-10">
-															<!--	<h4 class="font-md"><strong>1,543</strong>
+															<!--<div class="padding-10">
+																<h4 class="font-md"><strong>1,543</strong>
 																<br>
 																<small>Followers</small></h4>
 																<br>
 																<h4 class="font-md"><strong>419</strong>
 																<br>
-																<small>Connections</small></h4> -->
-															</div>
+																<small>Connections</small></h4> 
+															</div>-->
 														</div>
 														<div class="col-sm-6">
 															<h1><?=$usuario[0]->nombre?> <span class="semi-bold"><?=$usuario[0]->apellido?></span>
@@ -156,29 +157,29 @@
 															<small> Diamante</small></h1>
 
 															<ul class="list-unstyled ">
-                                <li>
-                                <div class="demo-icon-font">
+															    <li>
+															        <div class="demo-icon-font pull-left">
 																		<img class="flag flag-<?=strtolower($pais)?>">
-                                </div>
+																	</div>
 																</li>
 																<li>
-																	<p class="text-muted">
-																		<i class="fa fa-phone"></i>&nbsp;&nbsp;(<span class="txt-color-darken"><?=$telefono?></span>)</span>
+																	<p class="text-muted pull-left">
+																		|<i class="fa fa-phone"></i>(<span class="txt-color-darken"><?=$telefono?></span>)</span>
 																	</p>
 																</li>
 																<li>
-																	<p class="text-muted">
-																		<i class="fa fa-envelope"></i>&nbsp;&nbsp;<a ><?=$email?></a>
+																	<p class="text-muted pull-left">
+																		|<i class="fa fa-envelope"></i><a ><?=$email?></a>
 																	</p>
 																</li>
 																<li>
-																	<p class="text-muted">
-																		<i class="fa fa-user"></i>&nbsp;&nbsp;<span class="txt-color-darken"><?=$username?></span>
+																	<p class="text-muted pull-left">
+																		|<i class="fa fa-user"></i><span class="txt-color-darken"><?=$username?></span>
 																	</p>
 																</li>
 																<li>
-																	<p class="text-muted">
-																		<i class="fa fa-calendar"></i>&nbsp;&nbsp;<span class="txt-color-darken">Ultima sesión: <a href="javascript:void(0);" rel="tooltip" title="" data-placement="top" data-original-title="Create an Appointment"><?=$ultima?></a></span>
+																	<p class="text-muted pull-left">
+																		|<i class="fa fa-calendar"></i><span class="txt-color-darken">Ultima sesión: <a href="javascript:void(0);" rel="tooltip" title="" data-placement="top" data-original-title="Create an Appointment"><?=$ultima?></a></span>
 																	</p>
 																</li>
                                 <li>
@@ -186,10 +187,10 @@
                                 if(($id_sponsor[0]->id_usuario!=1)){
                                 ?>
                                <b>Patrocinador:</b>
-                              <?=$name_sponsor[0]->nombre?> <?=$name_sponsor[0]->apellido?> con id <?=$id_sponsor[0]->id_usuario?><br/>
+                              <p class="text-muted pull-left"><?=$name_sponsor[0]->nombre?> <?=$name_sponsor[0]->apellido?> con id <?=$id_sponsor[0]->id_usuario?></p><br/>
 
                               <?php }else{?>
-                              Eres un nodo raíz, fuiste patrocinado por la empresa<br />
+                              <p class="text-muted pull-left">Eres un nodo raíz, fuiste patrocinado por la empresa.</p><br />
                               <?php }?>
                                 </li>
 															</ul>

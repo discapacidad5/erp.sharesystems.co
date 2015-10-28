@@ -1,6 +1,6 @@
 
 <!-- MAIN CONTENT -->
-<div id="content">
+<div id="content" style="margin-top: 6em">
 	<div class="row">
 		<div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
 			<h1 class="page-title txt-color-blueDark">
@@ -53,7 +53,7 @@
 								</div>
 								<div class="col-xs-6 col-md-2 col-sm-2 col-lg-2">
 									<center>
-										<a title="Descargar" href="#" class="txt-color-blue">
+										<a title="Descargar" href="#" class="txt-color-gray">
 										<i class='fa fa-download fa-3x'></i></a> <br>Descargar
 									</center>
 								</div>
