@@ -32,32 +32,34 @@
                 <fieldset>
                   <div class="contenidoBotones">
 										<div class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
-											<div class="col-sm-3 link">
-											</div>
-											<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 " style="padding-left: 13%;">
+											
+											<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 " >
 												
-												<div class="col-xs-10 col-sm-10 col-md-3 col-lg-3" style="padding-right: 1%;padding-bottom: 3rem">
+												<div class="col-md-3 link">
+											</div>
+
+												<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="padding-right: 1%;padding-bottom: 3rem">
 												<a href="/ov/cgeneral/listar_informacion?id_red=<?php echo $id_red;?>">
 													<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-														<i class="fa fa-info fa-3x"></i>
+														<i class="fa fa-info fa-5x"></i>
 														<h1>Informacion</h1>
 													</div>
 												</a>
 												</div>
 												
-												<div class="col-xs-10 col-sm-10 col-md-3 col-lg-3" style="padding-right: 1%;padding-bottom: 3rem">
+												<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="padding-right: 1%;padding-bottom: 3rem">
 												<a href="/ov/cgeneral/listar_videos?id_red=<?php echo $id_red;?>">
 													<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>">
-														<i class="fa fa-file-video-o fa-3x"></i>
+														<i class="fa fa-file-video-o fa-5x"></i>
 														<h1>Videos</h1>
 													</div>
 												</a>
 												</div>
 												
-												<div class="col-xs-10 col-sm-10 col-md-3 col-lg-3" style="padding-right: 1%;padding-bottom: 3rem">
+												<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="padding-right: 1%;padding-bottom: 3rem">
 												<a  href="/ov/cgeneral/chat_soporte?id=red_soporte">
 													<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-														<i class="fa fa-wechat fa-3x"></i>
+														<i class="fa fa-wechat fa-5x"></i>
 														<h1>Chat</h1>
 													</div>
 												</a>

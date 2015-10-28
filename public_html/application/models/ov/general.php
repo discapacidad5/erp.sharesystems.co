@@ -6,7 +6,7 @@ class general extends CI_Model
 		$q = $this->db->query('select id_estatus from user_profiles where user_id = '.$id);
 		$estado = $q->result();
 	
-		if($estado[0]->estatus !== 'ACT'){
+		if($estado[0]->estatus == 'ACT'){
 			return true;
 		}else{
 			if($this->VerificarCompraPaquete($id)){

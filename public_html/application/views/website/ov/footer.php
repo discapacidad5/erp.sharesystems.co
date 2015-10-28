@@ -23,18 +23,18 @@
 		$(document).on("click", ".alert1", function(e) {
 		bootbox.dialog({
 			message: 
-					'<div class="col-sm-5">' +
+					'<div class="col-sm-4">' +
 						'<a href="perfil_red/">' +
 							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>">'+
-								'<i class="fa fa-user fa-3x"></i>'+
+								'<i class="fa fa-user fa-5x"></i>'+
 								'<h5>Perfil</h5>'+
 							'</div>'+
 						'</a>'+
 					'</div>' +	
-					'<div class="col-sm-5">' +
+					'<div class="col-sm-4">' +
 						'<a href="perfil_red/foto">' +
 							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">' +
-							'<i class="fa fa-camera fa-3x"></i>'+
+							'<i class="fa fa-camera fa-5x"></i>'+
 							'<h5>Foto</h5>'+
 							'</div>'+
 						'</a>'+
@@ -44,18 +44,18 @@
 		$(document).on("click", ".alert2", function(e) {
 		bootbox.dialog({
 			message: 	
-					'<div class="col-sm-5">' +
+					'<div class="col-sm-4">' +
 						'<a href="perfil_red/TipoAfiliacion">' +
 							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>">'+
-								'<i class="fa fa-edit fa-3x"></i>'+
+								'<i class="fa fa-edit fa-5x"></i>'+
 								'<h5>Afiliar</h5>'+
 							'</div>'+
 						'</a>'+
 					'</div>' +	
-					'<div class="col-sm-5">' +
+					'<div class="col-sm-4">' +
 						'<a href="red/index">' +
 							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>;">' +
-							'<i class="fa fa-sitemap fa-3x"></i>'+
+							'<i class="fa fa-sitemap fa-5x"></i>'+
 							'<h5>Red</h5>'+
 							'</div>'+
 						'</a>'+
@@ -66,34 +66,34 @@
 		bootbox.dialog({
 			message: 
 					'<table width="100%"><tr><td>'+
-					'<div class="col-sm-5">' +
+					'<div class="col-sm-4">' +
 						'<a href="cgeneral/encuestas">' +
 							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>">'+
-								'<i class="fa fa-file-text-o fa-3x"></i>'+
+								'<i class="fa fa-file-text-o fa-5x"></i>'+
 								'<h5>Encuestas</h5>'+
 							'</div>'+
 						'</a>'+
 					'</div>' +	
-					'<div class="col-sm-5">' +
+					'<div class="col-sm-4">' +
 						'<a href="cabecera/archivo">' +
 							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">' +
-							'<i class="fa fa-archive fa-3x"></i>'+
+							'<i class="fa fa-archive fa-5x"></i>'+
 							'<h5>Archivero</h5>'+
 							'</div>'+
 						'</a>'+
 					'</div></td></tr><tr><td>'+
-					'<div class="col-sm-5">' +
+					'<div class="col-sm-4">' +
 						'<a href="cabecera/tablero">' +
 							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>">'+
-								'<i class="fa fa-cogs fa-3x"></i>'+
-								'<h5>Afiliar</h5>'+
+								'<i class="fa fa-cogs fa-5x"></i>'+
+								'<h5>Tablero</h5>'+
 							'</div>'+
 						'</a>'+
 					'</div>' +	
-					'<div class="col-sm-5">' +
+					'<div class="col-sm-4">' +
 						'<a href="cabecera/compartir">' +
 							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>;">' +
-							'<i class="fa fa-folder-open-o fa-3x"></i>'+
+							'<i class="fa fa-folder-open-o fa-5x"></i>'+
 							'<h5>Compartir</h5>'+
 							'</div>'+
 						'</a>'+
@@ -103,82 +103,82 @@
 		$(document).on("click", ".alert7", function(e) {
 		bootbox.dialog({
 			message: '<table width="100%"><tr><td>'+
-					'<div class="col-sm-5">' +
+					'<div class="col-sm-4">' +
 						'<a href="escuela_negocios/informacion">' +
 							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>">'+
-								'<i class="fa fa-info fa-3x"></i>'+
+								'<i class="fa fa-info fa-5x"></i>'+
 								'<h5>Información</h5>'+
 							'</div>'+
 						'</a>'+
 					'</div>' +	
-					'<div class="col-sm-5">' +
+					'<div class="col-sm-4">' +
 						'<a href="escuela_negocios/presentaciones">' +
 							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">' +
-							'<i class="fa fa-desktop fa-3x"></i>'+
+							'<i class="fa fa-desktop fa-5x"></i>'+
 							'<h5>Presentaciones</h5>'+
 							'</div>'+
 						'</a>'+
 					'</div></td></tr><tr><td>'+
-					'<div class="col-sm-5">' +
+					'<div class="col-sm-4">' +
 						'<a href="escuela_negocios/ebooks">' +
 							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>">'+
-								'<i class="fa fa-book fa-3x"></i>'+
+								'<i class="fa fa-book fa-5x"></i>'+
 								'<h5>E-Books</h5>'+
 							'</div>'+
 						'</a>'+
 					'</div>' +	
-					'<div class="col-sm-5">' +
+					'<div class="col-sm-4">' +
 						'<a href="escuela_negocios/descargas">' +
 							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>;">' +
-							'<i class="fa fa-download fa-3x"></i>'+
+							'<i class="fa fa-download fa-5x"></i>'+
 							'<h5>Descargas</h5>'+
 							'</div>'+
 						'</a>'+
 						'</div></td></tr><tr><td>'+
-					'<div class="col-sm-5">' +
+					'<div class="col-sm-4">' +
 						'<a href="escuela_negocios/promociones">' +
 							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>">'+
-								'<i class="fa fa-gift fa-3x"></i>'+
+								'<i class="fa fa-gift fa-5x"></i>'+
 								'<h5>Promociones</h5>'+
 							'</div>'+
 						'</a>'+
 					'</div>' +	
-					'<div class="col-sm-5">' +
+					'<div class="col-sm-4">' +
 						'<a href="escuela_negocios/eventos">' +
 							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">' +
-							'<i class="fa fa-calendar fa-3x"></i>'+
+							'<i class="fa fa-calendar fa-5x"></i>'+
 							'<h5>Eventos</h5>'+
 							'</div>'+
 						'</a>'+
 						'</div></td></tr><tr><td>'+
-					'<div class="col-sm-5">' +
+					'<div class="col-sm-4">' +
 						'<a href="escuela_negocios/noticias">' +
 							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>">'+
-								'<i class="fa fa-bullhorn fa-3x"></i>'+
+								'<i class="fa fa-bullhorn fa-5x"></i>'+
 								'<h5>Noticias</h5>'+
 							'</div>'+
 						'</a>'+
 					'</div>' +	
-					'<div class="col-sm-5">' +
+					'<div class="col-sm-4">' +
 						'<a href="escuela_negocios/videos">' +
 							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>;">' +
-							'<i class="fa fa-file-video-o fa-3x"></i>'+
+							'<i class="fa fa-file-video-o fa-5x"></i>'+
 							'<h5>Videos</h5>'+
 							'</div>'+
 						'</a>'+
 						'</div></td></tr><tr><td>'+
-					'<div class="col-sm-5">' +
+					'<div class="col-sm-4">' +
 						'<a href="escuela_negocios/reconocimientos">' +
 							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>">'+
-								'<i class="fa fa-star fa-3x"></i>'+
+								'<i class="fa fa-star fa-5x"></i>'+
 								'<h5>Reconocimientos</h5>'+
 							'</div>'+
 						'</a>'+
 					'</div>' +	
-					'<div class="col-sm-5">' +
+					'<div class="col-sm-4">' +
 						'<a href="compras/estadistica">' +
 							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">' +
-							'<i class="fa fa-bar-chart-o fa-3x"></i>'+
+							'<i class="fa fa-bar-chart-o fa-5x"></i>'+
 							'<h5>Estadísticas</h5>'+
 							'</div>'+
 						'</a>'+
@@ -188,48 +188,37 @@
 		$(document).on("click", ".alert8", function(e) {
 		bootbox.dialog({
 			message: '<table width="100%"><tr><td>'+
-					'<div class="col-sm-5">' +
+					'<div class="col-sm-4">' +
 						'<a href="cgeneral/soporte_tecnico_ver_redes">' +
 							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>">'+
-								'<i class="fa fa-support fa-3x"></i>'+
+								'<i class="fa fa-support fa-5x"></i>'+
 								'<h5>Soporte Técnico</h5>'+
 							'</div>'+
 						'</a>'+
 					'</div>' +	
-					'<div class="col-sm-5">' +
+					'<div class="col-sm-4">' +
 						'<a href="cgeneral/web_personal">' +
 							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">' +
-							'<i class="fa fa-globe fa-3x"></i>'+
+							'<i class="fa fa-globe fa-5x"></i>'+
 							'<h5>Web Personal</h5>'+
 							'</div>'+
 						'</a>'+
 					'</div></td></tr><tr><td>'+
-					'<div class="col-sm-5">' +
+					'<div class="col-sm-4">' +
 						'<a href="cgeneral/chat">' +
 							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>">'+
-								'<i class="fa fa-weixin fa-3x"></i>'+
+								'<i class="fa fa-weixin fa-5x"></i>'+
 								'<h5>Chat</h5>'+
 							'</div>'+
 						'</a>'+
 					'</div>' +	
-					'<div class="col-sm-5">' +
+					'<div class="col-sm-4">' +
 						'<a href="cabecera/email">' +
 							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>;">' +
-							'<i class="fa fa-envelope fa-3x"></i>'+
+							'<i class="fa fa-envelope fa-5x"></i>'+
 							'<h5>E-mail</h5>'+
 							'</div>'+
-						'</a>'+
-						'</div></td></tr><tr><td>'+
-					'<div class="col-sm-5">' +
-						'<a href="general/videollamada">' +
-							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>">'+
-								'<i class="fa fa-video-camera fa-3x"></i>'+
-								'<h5>Videollamadas</h5>'+
-							'</div>'+
-						'</a>'+
-					'</div>' +	
-					'<div class="col-sm-5">' +
-						
+						'</a>'+						
 					'</div></td></tr></table>'
 		});
 		});

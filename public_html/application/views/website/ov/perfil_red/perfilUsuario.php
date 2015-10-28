@@ -54,9 +54,9 @@
 									<legend> Editar Perfil</legend>
                   <div class="contenidoBotones">
 										<div class="row">
-											<div class="col-sm-1">
-											</div>
 											<div class="col-sm-3">
+											</div>
+											<div class="col-sm-2">
 												<a href="/ov/perfil_red/perfil">
 													<div class="minh well well-sm txt-color-white text-center link_dashboard primary botones">
 														<i class="fa fa-user fa-4x"></i>
@@ -64,7 +64,7 @@
 													</div>
 												</a>
 											</div>
-											<div class="col-sm-3 link">
+											<div class="col-sm-2 link">
 												<a href="/auth/change_password">
 													<div class="minh well well-sm txt-color-white text-center link_dashboard primary botones">
 														<i class="fa fa-unlock fa-4x"></i>
@@ -72,11 +72,12 @@
 													</div>
 												</a>
 											</div>
-											<div class="col-sm-3 link">
+											<div class="col-sm-2 link">
 												<a href="/ov/perfil_red/foto">
 													<div class="minh well well-sm txt-color-white text-center link_dashboard primary botones">
-														<i class="fa fa-camera fa-4x"></i>
+														<i class="fa fa-camera fa-5x"></i>
 														<h1>Foto</h1>
+														<br/>
 													</div>
 												</a>
 											</div>

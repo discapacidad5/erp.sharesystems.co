@@ -1,4 +1,4 @@
-<div id="content">
+<div id="content" style="margin-top: 6em">
 
 	<!-- row -->
 	<div class="row">

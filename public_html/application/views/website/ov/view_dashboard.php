@@ -38,10 +38,12 @@
 	   			<?php 
 	   	}?>
 
+<h4 class="pull-right" style="margin-right: 1em"><strong>Haz click en el Ícono 
+<i class="fa fa-home"></i> de la Izquierda para desplegar el Menú</strong></h4>
+
 <!-- collapse menu button -->
-				<div id="hide-menu" class="btn-header">
-					<span> <a href="javascript:void(0);" data-action="toggleMenu" title="Collapse Menu"><i class="fa fa-home"></i> Menu &nbsp;
-					</span>
+				<div id="hide-menu" class="btn-header">				    
+					<span> <a href="javascript:void(0);" data-action="toggleMenu" title="Collapse Menu"><i class="fa fa-home"></i> </span>
 				</div>
 <!-- END collapse menu button -->
 
@@ -77,32 +79,32 @@
 
 				<ul>					
 					<li>
-						<a href="#" class="alert1" ><i class="fa fa-lg fa-fw fa-user"></i> <span class="menu-item-parent">PERFIL</span></a>
+						<a href="#" class="alert1" ><i class="fa fa-2x fa-fw fa-user"></i> <span class="menu-item-parent">PERFIL</span></a>
 					</li>	
 					<li>
-						<a href="#" class="alert2" ><i class="fa fa-lg fa-fw fa-sitemap"></i> <span class="menu-item-parent">RED</span></a>
+						<a href="#" class="alert2" ><i class="fa fa-2x fa-fw fa-sitemap"></i> <span class="menu-item-parent">RED</span></a>
 					</li>
 					
 					<li>
-						<a href="/ov/compras/carrito?tipo=1" class="alert4" ><i class="fa fa-lg fa-fw fa-shopping-cart"></i> <span class="menu-item-parent">COMPRAS</span></a>
+						<a href="/ov/compras/carrito?tipo=1" class="alert4" ><i class="fa fa-2x fa-fw fa-shopping-cart"></i> <span class="menu-item-parent">COMPRAS</span></a>
 					</li>	
 					<li>
-						<a href="/ov/billetera2/index_estado" class="alert5" ><i class="fa fa-lg fa-fw fa-money"></i> <span class="menu-item-parent">ESTADO DE CUENTA</span></a>
+						<a href="/ov/billetera2/index_estado" class="alert5" ><i class="fa fa-2x fa-fw fa-money"></i> <span class="menu-item-parent">ESTADO DE CUENTA</span></a>
 					</li>	
 					<li>
-						<a href="/ov/billetera2/index" class="alert6" ><i class="fa fa-lg fa-fw fa-dollar"></i> <span class="menu-item-parent">BILLETERA</span></a>
+						<a href="/ov/billetera2/index" class="alert6" ><i class="fa fa-2x fa-fw fa-dollar"></i> <span class="menu-item-parent">BILLETERA</span></a>
 					</li>	
 					<li>
-						<a href="#" class="alert7" ><i class="fa fa-lg fa-fw fa-info"></i> <span class="menu-item-parent">INFO Y CAPACITACIÓN</span></a>
+						<a href="#" class="alert7" ><i class="fa fa-2x fa-fw fa-info"></i> <span class="menu-item-parent">INFO Y CAPACITACIÓN</span></a>
 					</li>	
 					<li>
-						<a href="#" class="alert8" ><i class="fa fa-lg fa-fw fa-weixin"></i> <span class="menu-item-parent">COMUNICACIÓN</span></a>
+						<a href="#" class="alert8" ><i class="fa fa-2x fa-fw fa-weixin"></i> <span class="menu-item-parent">COMUNICACIÓN</span></a>
 					</li>	
 					<li>
-						<a href="#" class="alert3" ><i class="fa fa-lg fa-fw fa-folder-open-o"></i> <span class="menu-item-parent">GENERAL</span></a>
+						<a href="#" class="alert3" ><i class="fa fa-2x fa-fw fa-folder-open-o"></i> <span class="menu-item-parent">GENERAL</span></a>
 					</li>	
 					<li>
-						<a href="/ov/compras/reportes" class="alert9" ><i class="fa fa-lg fa-fw fa-table"></i> <span class="menu-item-parent">REPORTES</span></a>
+						<a href="/ov/compras/reportes" class="alert9" ><i class="fa fa-2x fa-fw fa-table"></i> <span class="menu-item-parent">REPORTES</span></a>
 					</li>				
 				</ul>
 			</nav>

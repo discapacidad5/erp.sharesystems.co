@@ -17,34 +17,34 @@
 					<legend>Red</legend>
 										<div class="row">
 						
-						<div class="col-lg-1 col-sm-1 col-md-1 col-xs-12">
-						</div>
 						<div class="col-lg-3 col-sm-3 col-md-3 col-xs-12">
+						</div>
+						<div class="col-lg-2 col-sm-2 col-md-2 col-xs-12">
 							<a href="/ov/red/red_genealogico?id=<?php echo $_GET['id']; ?>">
 								<div
 									class="well well-sm txt-color-white text-center link_dashboard"
 									style="background: #606060">
-									<i class="fa fa-sitemap fa-3x"></i>
+									<i class="fa fa-sitemap fa-5x"></i>
 									<h5>Genealogico</h5>
 								</div>
 							</a>
 						</div>
-						<div class="col-lg-3 col-sm-3 col-md-3 col-xs-12">
+						<div class="col-lg-2 col-sm-2 col-md-2 col-xs-12">
 							<a href="/ov/red/red_arbol1?id=<?php echo $_GET['id']; ?>">
 								<div
 									class="well well-sm txt-color-white text-center link_dashboard"
 									style="background: #606060">
-									<i class="fa fa-sitemap fa-3x"></i>
+									<i class="fa fa-sitemap fa-5x"></i>
 									<h5>Arbol 1</h5>
 								</div>
 							</a>
 						</div>
-						<div class="col-lg-3 col-sm-3 col-md-3 col-xs-12">
+						<div class="col-lg-2 col-sm-2 col-md-2 col-xs-12">
 							<a href="/ov/red/red_arbol2?id=<?php echo $_GET['id']; ?>">
 								<div
 									class="well well-sm txt-color-white text-center link_dashboard"
 									style="background: #606060">
-									<i class="fa fa-sitemap fa-3x"></i>
+									<i class="fa fa-sitemap fa-5x"></i>
 									<h5>Arbol 2</h5>
 								</div>
 							</a>

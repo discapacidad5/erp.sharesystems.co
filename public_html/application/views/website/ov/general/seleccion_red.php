@@ -1,5 +1,5 @@
  <!-- MAIN CONTENT -->
-<div id="content">
+<div id="content" style="margin-top: 6em">
 	<div class="row">
 		<div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
 			<h1 class="page-title txt-color-blueDark">
@@ -17,10 +17,10 @@
 											<legend>Redes</legend>
 											<div class="row">
 											<? foreach ($redes_de_usuario as $red ) { ?>
-												<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+												<div class="col-lg-2 col-sm-2 col-md-2 col-xs-12">
 													<a href="/ov/cgeneral/chat_red?id_red=<?= $red->id; ?>">
-														<div class="well well-sm txt-color-white text-center link_dashboard" style="background:#60a917">
-																<i class="fa fa-sitemap fa-3x"></i>
+														<div class="well well-sm txt-color-white text-center link_dashboard" style="background:#606060">
+																<i class="fa fa-sitemap fa-5x"></i>
 																<h5><?= $red->nombre;?></h5>
 														</div>	
 													</a>

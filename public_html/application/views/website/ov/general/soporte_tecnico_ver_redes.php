@@ -17,10 +17,10 @@
 											<legend>Redes</legend>
 											<div class="row">
 											<? foreach ($redes as $red ) { ?>
-												<div class="col-lg-3 col-sm-3 col-md-3 col-xs-12">
+												<div class="col-lg-2 col-sm-2 col-md-2 col-xs-12">
 													<a href="/ov/cgeneral/soporte_tecnico?id_red=<?= $red->id; ?>">
 														<div class="well well-sm txt-color-white text-center link_dashboard" style="background:#606060">
-																<i class="fa fa-sitemap fa-3x"></i>
+																<i class="fa fa-sitemap fa-5x"></i>
 																<h5><?= $red->nombre;?></h5>
 														</div>	
 													</a>
