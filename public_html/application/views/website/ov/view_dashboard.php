@@ -101,7 +101,7 @@
 						<a href="#" class="alert3" ><i class="fa fa-lg fa-fw fa-folder-open-o"></i> <span class="menu-item-parent">GENERAL</span></a>
 					</li>	
 					<li>
-						<a href="/ov/compras/reportes" class="alert9" ><i class="fa fa-lg fa-fw fa-dollar"></i> <span class="menu-item-parent">REPORTES</span></a>
+						<a href="/ov/compras/reportes" class="alert9" ><i class="fa fa-lg fa-fw fa-table"></i> <span class="menu-item-parent">REPORTES</span></a>
 					</li>				
 				</ul>
 			</nav>

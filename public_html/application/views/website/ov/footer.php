@@ -102,42 +102,135 @@
 		});
 		$(document).on("click", ".alert7", function(e) {
 		bootbox.dialog({
-			message: '<table width=""><tr><td>' +
-								'<a href="/ov/escuela_negocios/informacion" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_2_color?>"> <span class="iconbox"> <i class="fa fa-info fa-4x"></i> <span>Información</span> </span> </a>' +
-						'</td><td>'+		
-								'<a href="/ov/escuela_negocios/presentaciones" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_1_color?>"> <span class="iconbox"> <i class="fa fa-desktop fa-4x"></i> <span>Presentaciones</span> </span> </a>' +							
-						'</td><td>'+		
-								'<a href="/ov/escuela_negocios/ebooks" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_2_color?>"> <span class="iconbox"> <i class="fa fa-book fa-4x"></i> <span>E-books</span> </span> </a>' +	
-						'</td><td>'+		
-								'<a href="/ov/escuela_negocios/descargas" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_1_color?>"> <span class="iconbox"> <i class="fa fa-download fa-4x"></i> <span>Descargas</span> </span> </a>' +							
-						'</td></tr><tr><td>'+
-								'<a href="/ov/escuela_negocios/promociones" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_1_color?>"> <span class="iconbox"> <i class="fa fa-gift fa-4x"></i> <span>Promociones</span> </span> </a>' +									
-						'</td><td>'+		
-								'<a href="/ov/escuela_negocios/eventos" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_2_color?>"> <span class="iconbox"> <i class="fa fa-calendar fa-4x"></i> <span>Eventos</span> </span> </a>' +							
-						'</td><td>'+		
-								'<a href="/ov/escuela_negocios/noticias" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_1_color?>"> <span class="iconbox"> <i class="fa fa-bullhorn fa-4x"></i> <span>Noticias</span> </span> </a>' +	
-						'</td><td>'+
-								'<a href="/ov/escuela_negocios/videos" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_2_color?>"> <span class="iconbox"> <i class="fa fa-file-video-o fa-4x"></i> <span>Videos</span> </span> </a>' +							
-						'</td></tr><tr><td>'+		
-								'<a href="/ov/escuela_negocios/reconocimientos" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_2_color?>"> <span class="iconbox"> <i class="fa fa-star fa-4x"></i> <span>Reconocimientos</span> </span> </a>' +		
-						'</td><td>'+
-								'<a href="/ov/compras/estadisticas" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_1_color?>"> <span class="iconbox"> <i class="fa fa-bar-chart-o fa-4x"></i> <span>Estadísticas</span> </span> </a>' +											
-					'</td></tr></table>'
+			message: '<table width="100%"><tr><td>'+
+					'<div class="col-sm-5">' +
+						'<a href="escuela_negocios/informacion">' +
+							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>">'+
+								'<i class="fa fa-info fa-3x"></i>'+
+								'<h5>Información</h5>'+
+							'</div>'+
+						'</a>'+
+					'</div>' +	
+					'<div class="col-sm-5">' +
+						'<a href="escuela_negocios/presentaciones">' +
+							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">' +
+							'<i class="fa fa-desktop fa-3x"></i>'+
+							'<h5>Presentaciones</h5>'+
+							'</div>'+
+						'</a>'+
+					'</div></td></tr><tr><td>'+
+					'<div class="col-sm-5">' +
+						'<a href="escuela_negocios/ebooks">' +
+							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>">'+
+								'<i class="fa fa-book fa-3x"></i>'+
+								'<h5>E-Books</h5>'+
+							'</div>'+
+						'</a>'+
+					'</div>' +	
+					'<div class="col-sm-5">' +
+						'<a href="escuela_negocios/descargas">' +
+							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>;">' +
+							'<i class="fa fa-download fa-3x"></i>'+
+							'<h5>Descargas</h5>'+
+							'</div>'+
+						'</a>'+
+						'</div></td></tr><tr><td>'+
+					'<div class="col-sm-5">' +
+						'<a href="escuela_negocios/promociones">' +
+							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>">'+
+								'<i class="fa fa-gift fa-3x"></i>'+
+								'<h5>Promociones</h5>'+
+							'</div>'+
+						'</a>'+
+					'</div>' +	
+					'<div class="col-sm-5">' +
+						'<a href=""escuela_negocios/eventos">' +
+							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">' +
+							'<i class="fa fa-calendar fa-3x"></i>'+
+							'<h5>Eventos</h5>'+
+							'</div>'+
+						'</a>'+
+						'</div></td></tr><tr><td>'+
+					'<div class="col-sm-5">' +
+						'<a href="escuela_negocios/noticias">' +
+							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>">'+
+								'<i class="fa fa-bullhorn fa-3x"></i>'+
+								'<h5>Noticias</h5>'+
+							'</div>'+
+						'</a>'+
+					'</div>' +	
+					'<div class="col-sm-5">' +
+						'<a href="escuela_negocios/videos">' +
+							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>;">' +
+							'<i class="fa fa-file-video-o fa-3x"></i>'+
+							'<h5>Videos</h5>'+
+							'</div>'+
+						'</a>'+
+						'</div></td></tr><tr><td>'+
+					'<div class="col-sm-5">' +
+						'<a href="escuela_negocios/reconocimientos">' +
+							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>">'+
+								'<i class="fa fa-star fa-3x"></i>'+
+								'<h5>Reconocimientos</h5>'+
+							'</div>'+
+						'</a>'+
+					'</div>' +	
+					'<div class="col-sm-5">' +
+						'<a href="compras/estadistica">' +
+							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">' +
+							'<i class="fa fa-bar-chart-o fa-3x"></i>'+
+							'<h5>Estadísticas</h5>'+
+							'</div>'+
+						'</a>'+
+					'</div></td></tr></table>'
 		});
 		});
 		$(document).on("click", ".alert8", function(e) {
 		bootbox.dialog({
-			message: '<table width=""><tr><td>' +
-								'<a href="/ov/cgeneral/soporte_tecnico_ver_redes" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_1_color?>"> <span class="iconbox"> <i class="fa fa-support fa-4x"></i> <span>Support</span> </span> </a>' +							
-						'</td><td>'+		
-								'<a href="/ov/cgeneral/web_personal" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_2_color?>"> <span class="iconbox"> <i class="fa fa-globe fa-4x"></i> <span>Web Personal</span> </span> </a>' +	
-						'</td><td>'+
-								'<a href="/ov/cgeneral/chat" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_1_color?>"> <span class="iconbox"> <i class="fa fa-weixin fa-4x"></i> <span>Chat</span> </span> </a>' +							
-						'</td><td>'+
-								'<a href="/ov/cabecera/email" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_2_color?>"> <span class="iconbox"> <i class="fa fa-envelope fa-4x"></i> <span>E-mail</span> </span> </a>' +								
-						'</td></tr><tr><td>'+
-								'<a href="/ov/cgeneral/videollamada" class="jarvismetro-tile big-cubes" style="background: <?=$style[0]->btn_2_color?>"> <span class="iconbox"> <i class="fa fa-video-camera fa-4x"></i> <span>Videollamadas</span> </span> </a>' +																
-					'</td></tr></table>'
+			message: '<table width="100%"><tr><td>'+
+					'<div class="col-sm-5">' +
+						'<a href="cgeneral/soporte_tecnico_ver_redes">' +
+							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>">'+
+								'<i class="fa fa-support fa-3x"></i>'+
+								'<h5>Soporte Técnico</h5>'+
+							'</div>'+
+						'</a>'+
+					'</div>' +	
+					'<div class="col-sm-5">' +
+						'<a href="cgeneral/web_personal">' +
+							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">' +
+							'<i class="fa fa-globe fa-3x"></i>'+
+							'<h5>Web Personal</h5>'+
+							'</div>'+
+						'</a>'+
+					'</div></td></tr><tr><td>'+
+					'<div class="col-sm-5">' +
+						'<a href="cgeneral/chat">' +
+							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>">'+
+								'<i class="fa fa-weixin fa-3x"></i>'+
+								'<h5>Chat</h5>'+
+							'</div>'+
+						'</a>'+
+					'</div>' +	
+					'<div class="col-sm-5">' +
+						'<a href="cabecera/email">' +
+							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>;">' +
+							'<i class="fa fa-envelope fa-3x"></i>'+
+							'<h5>E-mail</h5>'+
+							'</div>'+
+						'</a>'+
+						'</div></td></tr><tr><td>'+
+					'<div class="col-sm-5">' +
+						'<a href="general/videollamada">' +
+							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>">'+
+								'<i class="fa fa-video-camera fa-3x"></i>'+
+								'<h5>Videollamadas</h5>'+
+							'</div>'+
+						'</a>'+
+					'</div>' +	
+					'<div class="col-sm-5">' +
+						
+					'</div></td></tr></table>'
 		});
 		});
 		</script>
