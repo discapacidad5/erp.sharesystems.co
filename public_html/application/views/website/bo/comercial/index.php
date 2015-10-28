@@ -1,5 +1,5 @@
 			<!-- MAIN CONTENT -->
-			<div id="content" >
+			<div id="content" style="margin-top: 5em" >
 				<div class="row">
 					<div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
 						<h1 class="page-title txt-color-blueDark">
@@ -38,7 +38,7 @@
 												<div class="col-sm-3 link">
 													<a href="/bo/comercial/altas">
 														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>">
-															<i class="fa fa-edit fa-3x"></i>
+															<i class="fa fa-edit fa-2x"></i>
 															<h1>Altas</h1>
 														</div>
 													</a>
@@ -46,7 +46,7 @@
 												<div class="col-sm-3 link">
 													<a href="/bo/comercial/red">
 														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-															<i class="fa fa-sitemap fa-3x"></i>
+															<i class="fa fa-sitemap fa-2x"></i>
 															<h1>Red</h1>
 														</div>
 													</a>
@@ -54,7 +54,7 @@
 												<div class="col-sm-3 link">
 													<a href="/bo/reportes">
 														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-															<i class="fa fa-book fa-3x"></i>
+															<i class="fa fa-book fa-2x"></i>
 															<h1>Reportes</h1>
 														</div>
 													</a>
@@ -62,7 +62,7 @@
 												<div class="col-sm-3 link">
 													<a href="/bo/comercial/carrito_de_compras">
 														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>">
-															<i class="fa fa-shopping-cart fa-3x"></i>
+															<i class="fa fa-shopping-cart fa-2x"></i>
 															<h1>Carrito de Compras</h1>
 														</div>
 													</a>
@@ -70,7 +70,7 @@
 												<div class="col-sm-3 link">	
 													<a href="http://pekcell.com:2095/" target="_blank">
 														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-															<i class="fa fa-envelope fa-3x"></i>
+															<i class="fa fa-envelope fa-2x"></i>
 															<h1>Email <br>&nbsp</h1>
 														</div>
 													</a>
@@ -78,7 +78,7 @@
 												<div class="col-sm-3 link">	
 													<a href="/bo/CuentasPagar/Archivero">
 														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-															<i class="fa fa-folder fa-3x"></i>
+															<i class="fa fa-folder fa-2x"></i>
 															<h1>Archivero <br>&nbsp</h1>
 														</div>
 													</a>

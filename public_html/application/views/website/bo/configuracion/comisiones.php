@@ -1,5 +1,5 @@
 			<!-- MAIN CONTENT -->
-			<div id="content" >
+			<div id="content" style="margin-top: 5em" >
 				<div class="row">
 					<div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
 						<h1 class="page-title txt-color-blueDark">
@@ -33,10 +33,10 @@
 	<legend>Categoria</legend>
 		<div class="row">
 			<? foreach ($categorias as $categoria ) { ?>
-				<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+				<div class="col-lg-3 col-sm-3 col-md-3 col-xs-12">
 					<a href="/bo/comisiones/editar?id=<?= $categoria->id_grupo ?>">
-						<div class="well well-sm txt-color-white text-center link_dashboard" style="background:#60a917">
-							<i class="fa fa-tags  fa-3x"></i>
+						<div class="well well-sm txt-color-white text-center link_dashboard" style="background:#006">
+							<i class="fa fa-tags  fa-5x"></i>
 							<h5><?= $categoria->descripcion." ( ".$categoria->red." )";?></h5>
 						</div>	
 					</a>

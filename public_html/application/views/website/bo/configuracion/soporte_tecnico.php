@@ -1,5 +1,5 @@
 			<!-- MAIN CONTENT -->
-			<div id="content" >
+			<div id="content" style="margin-top: 5em">
 				<div class="row">
 					<div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
 						<h1 class="page-title txt-color-blueDark">
@@ -41,7 +41,7 @@
 												<div class="col-xs-10 col-sm-10 col-md-2 col-lg-2" style="padding-right: 1%; padding-bottom: 3rem;">
 												<a href="grupos_soporte_tecnico">
 													<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-														<i class="fa fa-group fa-3x"></i>
+														<i class="fa fa-group fa-5x"></i>
 														<h1>Grupos<br><br></h1>
 													</div>
 												</a>
@@ -50,7 +50,7 @@
 												<div class="col-xs-10 col-sm-10 col-md-2 col-lg-2" style="padding-right: 1%;padding-bottom: 3rem">
 												<a href="informacion_ver_redes?id=0">
 													<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-														<i class="fa fa-info fa-3x"></i>
+														<i class="fa fa-info fa-5x"></i>
 														<h1>Informacion<br><br></h1>
 													</div>
 												</a>
@@ -59,7 +59,7 @@
 												<div class="col-xs-10 col-sm-10 col-md-2 col-lg-2" style="padding-right: 1%;padding-bottom: 3rem">
 												<a href="videos_ver_redes">
 													<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>">
-														<i class="fa fa-file-video-o fa-3x"></i>
+														<i class="fa fa-file-video-o fa-5x"></i>
 														<h1>Videos<br><br></h1>
 													</div>
 												</a>
@@ -68,7 +68,7 @@
 												<div class="col-xs-10 col-sm-10 col-md-2 col-lg-2" style="padding-right: 1%;padding-bottom: 3rem">
 												<a href="datos_generales_ver_redes">
 													<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-														<i class="fa fa-file-text-o fa-3x"></i>
+														<i class="fa fa-file-text-o fa-5x"></i>
 														<h1>Datos Generales</h1>
 													</div>
 												</a>

@@ -1,5 +1,5 @@
 			<!-- MAIN CONTENT -->
-			<div id="content" >
+			<div id="content" style="margin-top: 5em" >
 				<div class="row">
 					<div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
 						<h1 class="page-title txt-color-blueDark">
@@ -56,7 +56,7 @@
 												<div class="col-sm-2 link">
 													<a href="/bo/comercial/actionProveedor">
 														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-															<i class="fa fa-truck fa-3x"></i>
+															<i class="fa fa-truck fa-5x"></i>
 															<h1>Proveedor<br>&nbsp</h1>
 														</div>
 													</a>

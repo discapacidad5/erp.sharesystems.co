@@ -1,5 +1,5 @@
 			<!-- MAIN CONTENT -->
-			<div id="content" >
+			<div id="content" style="margin-top: 5em">
 				<div class="row">
 					<div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
 						<h1 class="page-title txt-color-blueDark">
@@ -33,84 +33,86 @@
                   <div class="contenidoBotones" style="margin-left: 6%;">
 										<div class="row">
 											<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 link">
-												<div class="col-xs-10 col-sm-4 col-md-3 col-lg-2 link">
+												<div class="col-xs-10 col-sm-3 col-md-3 col-lg-2 link">
 													<a href="/bo/configuracion/tipoRed">
 														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>">
-															<i class="fa fa-list fa-3x"></i>
+															<i class="fa fa-list fa-2x"></i>
 															<h1>Redes</h1>
 														</div>
 													</a>
 												</div>
-												<div class="col-xs-10 col-sm-4 col-md-3 col-lg-2 link">
+												<div class="col-xs-10 col-sm-3 col-md-3 col-lg-2 link">
 													<a href="/bo/admin/paises">
 														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-															<i class="fa fa-usd fa-3x"></i>
+															<i class="fa fa-usd fa-2x"></i>
 															<h1>Pais/Moneda</h1>
 														</div>
 													</a>
 												</div>
-												<div class="col-xs-10 col-sm-4 col-md-3 col-lg-2 link">	
+												<div class="col-xs-10 col-sm-3 col-md-3 col-lg-2 link">	
 													<a href="/bo/configuracion/comisiones">
 														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-															<i class="fa fa-money fa-3x"></i>
+															<i class="fa fa-money fa-2x"></i>
 															<h1>Comisiones</h1>
 														</div>
 													</a>
 												</div>
-												<div class="col-xs-10 col-sm-4 col-md-3 col-lg-2 link">	
+												<div class="col-xs-10 col-sm-3 col-md-3 col-lg-2 link">	
 												   <a href="retenciones">
 														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-															<i class="fa fa-credit-card fa-3x"></i>
+															<i class="fa fa-credit-card fa-2x"></i>
 															<h1>Retenciones</h1>
 														</div>
 													</a>
 												</div>
-												<div class="col-xs-10 col-sm-4 col-md-3 col-lg-2 link">	
+												<div class="col-xs-10 col-sm-3 col-md-3 col-lg-2 link">	
 													<a href="impuestos">
 														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-															<i class="fa fa-fax fa-3x"></i>
+															<i class="fa fa-fax fa-2x"></i>
 															<h1>Impuestos <br></h1>
 														</div>
 													</a>
 												</div>
-												<div class="col-xs-10 col-sm-4 col-md-3 col-lg-2 link">
+												<div class="col-xs-10 col-sm-3 col-md-3 col-lg-2 link">
 													<a href="/bo/bancos/index">
 														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-															<i class="fa fa-bank fa-3x"></i>
-															<h1>Bancos <br><br><br></h1>
+															<i class="fa fa-bank fa-2x"></i>
+															<h1>Bancos </h1>
+															<h1>. </h1>
 														</div>
 													</a>
 												</div>
-												<div class="col-xs-10 col-sm-4 col-md-3 col-lg-2 link">	
+												<div class="col-xs-10 col-sm-3 col-md-3 col-lg-2 link">	
 													<a href="premios">
 														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-															<i class="fa fa-gift fa-3x"></i>
-															<h1>Premios </h1><br><br><br>
+															<i class="fa fa-gift fa-2x"></i>
+															<h1>Premios </h1>
+															<h1>. </h1>
 														</div>
 													</a>
 												</div>
-											<div class="col-xs-10 col-sm-4 col-md-3 col-lg-2 link">
+											<div class="col-xs-10 col-sm-3 col-md-3 col-lg-2 link">
 													<a href="/bo/administracion/emails_departamentos">
 														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>">
-															<i class="fa fa-envelope fa-3x"></i>
+															<i class="fa fa-envelope fa-2x"></i>
 															<h1>E-mails</h1>
-															<h1>Departamentos<br><br></h1>
+															<h4>Departamentos</h4>
 														</div>
 													</a>
 											</div>
-												<div class="col-xs-10 col-sm-4 col-md-3 col-lg-2 link">	
+												<div class="col-xs-10 col-sm-3 col-md-3 col-lg-2 link">	
 													<a href="/bo/configuracion/soporte_tecnico">
 														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-															<i class="fa fa-support fa-3x"></i>
-															<h1>Soporte Técnico<br><br></h1>
+															<i class="fa fa-support fa-2x"></i>
+															<h1>Soporte Técnico</h1>
 														</div>
 													</a>
 												</div>
-												<div class="col-xs-10 col-sm-4 col-md-3 col-lg-2 link">	
+												<div class="col-xs-10 col-sm-3 col-md-3 col-lg-2 link">	
 													<a href="/bo/capacidadRed/index">
 														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>">
-															<i class="fa fa-sort-numeric-asc fa-3x"></i>
-															<h1>Frontalidad /Profundidad <br><br></h1>
+															<i class="fa fa-sort-numeric-asc fa-2x"></i>
+															<h1>Frontalidad Profundidad </h1>
 														</div>
 													</a>
 												</div>

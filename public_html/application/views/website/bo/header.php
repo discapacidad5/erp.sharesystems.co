@@ -43,11 +43,11 @@
 	<body class="desktop-detected pace-done hidden-menu">
 
 		<!-- #HEADER -->
-		<header id="header" style="height: 70px">
+		<header id="header" class="navbar navbar-default navbar-fixed-top" style="height: 70px; ">
 			<div id="logo-group">
 
 				<!-- PLACE YOUR LOGO HERE-->
-				<span id="logo"> <a href="/"><img style="width: 25rem; height: auto;" src="/logo.png" alt="Networksoft"> </a></span>
+				<span id="logo"> <a href="/"><img style="width: 10rem; height: auto;" src="/logo.png" alt="Networksoft"> </a></span>
 				<!--END LOGO PLACEHOLDER -->
 			</div>
 			<!-- #TOGGLE LAYOUT BUTTONS -->
@@ -83,8 +83,8 @@
 				<!-- logout button -->
 				<div style="margin-top: 1rem;" class=" transparent pull-right" id="logout">
 
-					<span> <a style="color: rgb(255, 255, 255); background: rgb(206, 53, 44) none repeat scroll 0% 0%;" class="btn btn-default btn-circle btn-lg" href="/auth/logout" style="color: #CE352C" title="Salir" data-action="userLogout" data-logout-msg="¿Realmente desea salir?">
-							<i style="font-size: 3rem;" class="fa fa-sign-out"></i>
+					<span> <a style="color: rgb(255, 255, 255); background: rgb(206, 53, 44) none repeat scroll 0% 0%;" class="btn btn-default btn-square btn-lg" href="/auth/logout" style="color: #CE352C" title="Salir" data-action="userLogout" data-logout-msg="¿Realmente desea salir?">
+							<i style="font-size: 4rem;" class="fa fa-sign-out"></i>
 							</a></span>
 				</div>
 				<!-- end logout button -->

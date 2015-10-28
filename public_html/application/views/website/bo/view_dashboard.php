@@ -13,7 +13,7 @@ $ci->load->model("model_permissions");?>
 					<div class="col-sm-12">
 							<div class="well well-sm">
 								<div class="row">
-					      	<div class="col-sm-12 col-md-12 col-lg-4" style="margin-top: 12rem;">
+					      	<div class="col-sm-12 col-md-12 col-lg-4" style="margin-top: 1rem;">
 										<div class="well well-light well-sm no-margin no-padding">
 											<div class="row">
 												<div class="col-sm-12">
@@ -74,14 +74,14 @@ $ci->load->model("model_permissions");?>
 									<div class="well" style="box-shadow: 0px 0px 0px !important;border-color: transparent;">
 										<fieldset>
 											<legend><b>Sistema Integral de Operaciones</b></legend>
-											<div class="row">
+											<div class="row">											
 												<?php $permiso=$ci->model_permissions->check($id,'perfil');
 												//if($permiso){
 												?>
-												<div class="col-sm-4">
+												<div class="col-sm-3">
 													<a href="configuracion/">
 														<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>">
-															<i class="fa fa-wrench fa-3x"></i>
+															<i class="fa fa-wrench fa-5x"></i>
 															<h5>Configuracion</h5>
 														</div>
 													</a>
@@ -91,10 +91,10 @@ $ci->load->model("model_permissions");?>
 												$permiso=$ci->model_permissions->check($id,'foto');
 											//	if($permiso){
 												?>
-												<div class="col-sm-4">
+												<div class="col-sm-3">
 													<a href="comercial/">
 														<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-															<i class="fa fa-money fa-3x"></i>
+															<i class="fa fa-money fa-5x"></i>
 															<h5>Comercial</h5>
 														</div>
 													</a>
@@ -106,10 +106,10 @@ $ci->load->model("model_permissions");?>
 												$permiso=$ci->model_permissions->check($id,'foto');
 											//	if($permiso){
 												?>
-												<div class="col-sm-4">
+												<div class="col-sm-3">
 													<a href="administracion/">
 														<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-															<i class="fa fa-folder-open fa-3x"></i>
+															<i class="fa fa-folder-open fa-5x"></i>
 															<h5>Administrativo</h5>
 														</div>
 													</a>
@@ -121,10 +121,10 @@ $ci->load->model("model_permissions");?>
 												<?php $permiso=$ci->model_permissions->check($id,'perfil');
 												//if($permiso){
 												?>
-												<div class="col-sm-4">
+												<div class="col-sm-3">
 													<a href="oficinaVirtual/">
 														<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>">
-															<i class="fa fa-desktop fa-3x"></i>
+															<i class="fa fa-desktop fa-5x"></i>
 															<h5>Oficina Virtual</h5>
 														</div>
 													</a>
@@ -136,10 +136,10 @@ $ci->load->model("model_permissions");?>
 												$permiso=$ci->model_permissions->check($id,'foto');
 											//	if($permiso){
 												?>
-												<div class="col-sm-4">
+												<div class="col-sm-3">
 													<a href="/bol/dashboard">
 														<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-															<i class="fa fa-cubes fa-3x"></i>
+															<i class="fa fa-cubes fa-5x"></i>
 															<h5>Logistico</h5>
 														</div>
 													</a>
@@ -151,10 +151,10 @@ $ci->load->model("model_permissions");?>
 												$permiso=$ci->model_permissions->check($id,'foto');
 											//	if($permiso){
 												?>
-												<div class="col-sm-4">
+												<div class="col-sm-3">
 													<a href="/bo/reportes">
 														<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-															<i class="fa fa-book fa-3x"></i>
+															<i class="fa fa-book fa-5x"></i>
 															<h5>Reportes</h5>
 														</div>
 													</a>

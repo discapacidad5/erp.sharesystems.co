@@ -1,5 +1,5 @@
 			<!-- MAIN CONTENT -->
-			<div id="content" >
+			<div id="content" style="margin-top: 5em">
 				<div class="row">
 					<div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
 					<h1 class="page-title txt-color-blueDark">
@@ -44,11 +44,13 @@
                 <fieldset>
                   <div class="contenidoBotones">
 						<div class="row">
+						      <div class="col col-sm-3 col-xs-3 col-lg-3" >
+						      </div>
 							<?php foreach ($tipos as $tipo ) {?>
-								<div class="col col-sm-5 col-xs-12 col-lg-3" >
+								<div class="col col-sm-2 col-xs-2 col-lg-2" >
 									<a href="/bo/mercancia/nueva_mercancia?id=<?php echo $tipo->id; ?>" style="height: 10rem;">
 										<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-											<i class="fa fa-tags fa-3x"></i>
+											<i class="fa fa-tags fa-5x"></i>
 											<h1><?php echo $tipo->descripcion; ?></h1>
 										</div>
 									</a>

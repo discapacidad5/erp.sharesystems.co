@@ -1,5 +1,5 @@
 			<!-- MAIN CONTENT -->
-			<div id="content" >
+			<div id="content" style="margin-top: 5em" >
 				<div class="row">
 					<div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
 						<h1 class="page-title txt-color-blueDark">
@@ -34,33 +34,34 @@
                 <fieldset>
                   <div class="contenidoBotones">
 										<div class="row">
-											<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 link">
+											<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 link">
 											</div>
-											<div class="col-xs-11 col-sm-12 col-md-6 col-lg-6 link">
-												<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 link">
+											<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 link">
+												<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 link">
 													<a href="/bo/tipo_red/crear_red">
 														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-															<i class="fa fa-edit fa-3x"></i>
+															<i class="fa fa-edit fa-4x"></i>
 															<h1>Alta</h1>
-															<h1>Red</h1><br>
+															<h1> Red</h1>
+															<h1>.</h1>
 														</div>
 													</a>
 												</div>
-												<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 link">
+												<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 link">
 													<a href="/bo/tipo_red/mostrar_redes">
 														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>">
-															<i class="fa fa-list-alt fa-3x"></i>
-															<h1>Listar</h1>
+															<i class="fa fa-list-alt fa-4x"></i>
+															<h1>Listar </h1>
 															<h1>Redes</h1>
-															<br>
+															<h1>.</h1>															
 														</div>
 													</a>
 												</div>
-												<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 link">	
+												<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 link">	
 													<a href="/bo/configuracion/categorias">
-														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;  padding-bottom: 19%;">
-															<i class="fa fa-th fa-3x"></i>
-															<h1>Categorias Productos, Servicios </h1>
+														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;  ">
+															<i class="fa fa-th fa-4x"></i>
+															<h1>Categorias Productos, Servicios</h1>
 														</div>
 													</a>
 												</div>
