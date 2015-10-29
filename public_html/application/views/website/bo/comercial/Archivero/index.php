@@ -1,5 +1,5 @@
 			<!-- MAIN CONTENT -->
-			<div id="content" >
+			<div id="content" style="margin-top: 5em">
 				<div class="row">
 					<div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
 						<h1 class="page-title txt-color-blueDark">
@@ -33,13 +33,13 @@
                 <fieldset>
                   <div class="contenidoBotones">
 										<div class="row">
-											<div class="col-sm-3 link">
+											<div class="col-sm-4 link">
 											</div>
-											<div class="col-sm-8 link">
+											<div class="col-sm-6 link">
 												<div class="col-sm-4 link">
 													<a href="/bo/CuentasPagar/Archivos">
 														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>">
-															<i class="fa fa-archive fa-3x"></i>
+															<i class="fa fa-archive fa-5x"></i>
 															<h1>Historial De Pagos</h1>
 														</div>
 													</a>
