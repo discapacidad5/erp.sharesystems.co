@@ -1,5 +1,5 @@
 			<!-- MAIN CONTENT -->
-			<div id="content" >
+			<div id="content" style="margin-top: 5em">
 				<div class="row">
 					<div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
 						<h1 class="page-title txt-color-blueDark">
@@ -38,7 +38,7 @@
 												<div class="col-sm-4 link">
 												<a href="/bo/videos/alta_normal">
 													<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-														<i class="fa fa-file-video-o fa-3x"></i>
+														<i class="fa fa-file-video-o fa-5x"></i>
 														<h1>Video</h1>
 													</div>
 												</a>
@@ -46,7 +46,7 @@
 												<div class="col-sm-4 link">
 												<a href="/bo/videos/alta_youtube">
 													<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>">
-														<i class="fa fa-youtube fa-3x"></i>
+														<i class="fa fa-youtube fa-5x"></i>
 														<h1>Youtube</h1>
 													</div>
 												</a>

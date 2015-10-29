@@ -1,5 +1,5 @@
 			<!-- MAIN CONTENT -->
-			<div id="content" >
+			<div id="content" style="margin-top: 5em" >
 				<div class="row">
 					<div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
 						<h1 class="page-title txt-color-blueDark">
@@ -36,80 +36,89 @@
 												<div class="col-xs-10 col-sm-4 col-md-3 col-lg-2 link">	
 													<a href="/bo/oficinaVirtual/grupos">
 														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-															<i class="fa fa-group fa-3x"></i>
+															<i class="fa fa-group fa-2x"></i>
 															<h5>Grupos</h5>
+															<h5>.</h5>
 														</div>
 													</a>
 												</div>
 												<div class="col-xs-10 col-sm-4 col-md-3 col-lg-2 link">
 													<a href="/bo/oficinaVirtual/presentaciones">
 														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>">
-															<i class="fa fa-desktop fa-3x"></i>
+															<i class="fa fa-desktop fa-2x"></i>
 															<h5>Presentaciones</h5>
+															<h5>.</h5>
 														</div>
 													</a>
 												</div>
 												<div class="col-xs-10 col-sm-4 col-md-3 col-lg-2 link">
 													<a href="/bo/oficinaVirtual/descargas">
 														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-															<i class="fa fa-download fa-3x"></i>
+															<i class="fa fa-download fa-2x"></i>
 															<h5>Descargas</h5>
+															<h5>.</h5>
 														</div>
 													</a>
 												</div>
 												<div class="col-xs-10 col-sm-4 col-md-3 col-lg-2 link">
 													<a href="/bo/oficinaVirtual/ebooks">
 														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-															<i class="fa fa-book fa-3x"></i>
+															<i class="fa fa-book fa-2x"></i>
 															<h5>E-books</h5>
+															<h5>.</h5>
 														</div>
 													</a>
 												</div>
 												<div class="col-xs-10 col-sm-4 col-md-3 col-lg-2 link">
 													<a href="/bo/oficinaVirtual/informacion">
 														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-															<i class="fa fa-info fa-3x"></i>
+															<i class="fa fa-info fa-2x"></i>
 															<h5>Informacion</h5>
+															<h5>.</h5>
 														</div>
 													</a>
 												</div>
 												<div class="col-xs-10 col-sm-4 col-md-3 col-lg-2 link">	
 												   <a href="/bo/oficinaVirtual/noticias">
 														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-															<i class="fa fa-bullhorn fa-3x"></i>
+															<i class="fa fa-bullhorn fa-2x"></i>
 															<h5>Noticias</h5>
+															<h5>.</h5>
 														</div>
 													</a>
 												</div>
 												<div class="col-xs-10 col-sm-4 col-md-3 col-lg-2 link">	
 													<a href="/bo/oficinaVirtual/videos">
 														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-															<i class="fa fa-file-video-o fa-3x"></i>
+															<i class="fa fa-file-video-o fa-2x"></i>
 															<h5>Videos</h5>
+															<h5>.</h5>
 														</div>
 													</a>
 												</div>
 												<div class="col-xs-10 col-sm-4 col-md-3 col-lg-2 link">	
 													<a href="/bo/oficinaVirtual/eventos">
 														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-															<i class="fa fa-calendar fa-3x"></i>
+															<i class="fa fa-calendar fa-2x"></i>
 															<h5>Eventos </h5>
+															<h5>.</h5>
 														</div>
 													</a>
 												</div>
 												<div class="col-xs-10 col-sm-4 col-md-3 col-lg-2 link">	
 													<a href="/bo/oficinaVirtual/cupones">
 														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-															<i class="fa fa-ticket fa-3x"></i>
-															<h5>Cupones/Boletos</h5>
+															<i class="fa fa-ticket fa-2x"></i>
+															<h5>Cupones Boletos</h5>															
 														</div>
 													</a>
 												</div>
 												<div class="col-xs-10 col-sm-4 col-md-3 col-lg-2 link">	
 													<a href="/bo/oficinaVirtual/encuestas">
 														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>">
-															<i class="fa fa-file-text-o fa-3x"></i>
+															<i class="fa fa-file-text-o fa-2x"></i>
 															<h5>Encuestas</h5>
+															<h5>.</h5>
 														</div>
 													</a>
 												</div>

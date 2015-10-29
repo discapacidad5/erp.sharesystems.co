@@ -68,7 +68,7 @@
 													</a>
 												</div>
 												<div class="col-sm-3 link">	
-													<a href="http://pekcell.com:2095/" target="_blank">
+													<a href="https://login.secureserver.net/" target="_blank">
 														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
 															<i class="fa fa-envelope fa-2x"></i>
 															<h1>Email <br>&nbsp</h1>

@@ -1,6 +1,6 @@
 
 			<!-- MAIN CONTENT -->
-			<div id="content">
+			<div id="content" style="margin-top: 5em">
 
 				<div class="row">
 					<div class="col-xs-12 col-sm-7 col-md-7 col-lg-4">

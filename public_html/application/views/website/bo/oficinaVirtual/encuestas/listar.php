@@ -1,7 +1,7 @@
 
 <!-- MAIN CONTENT -->
 <div id="content">
-	<div class="row">
+	<div class="row" style="margin-top: 5em">
 		<div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
 			<h1 class="page-title txt-color-blueDark">
 				<a class="backHome" href="/bo"><i class="fa fa-home"></i> Menu</a> <span>>
@@ -34,9 +34,9 @@
 						
 						<div class="widget-body col-xs-12 col-md-12 col-sm-12 col-lg-12">
 							
-							<div class="row col-xs-12 col-md-12 col-sm-8 col-lg-4 pull-right">
+							<div class="row col-xs-12 col-md-12 col-sm-12 col-lg-12 pull-right">
 								
-								<div class="col-xs-6 col-md-2 col-sm-2 col-lg-2">
+								<div class="col-xs-8 col-md-2 col-sm-2 col-lg-2">
 									<center>
 										<a title="Editar" href="#" class="txt-color-blue"><i
 												class="fa fa-pencil fa-3x"></i></a> <br>Editar
