@@ -50,7 +50,7 @@
 												<div class="col-sm-3 link">
 												<a href="/bo/premios/premios_pendientes">
 													<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-														<i class="fa fa-list-alt fa-3x"></i>
+														<i class="fa fa-list-alt fa-5x"></i>
 														<h1>Entregas Pendientes</h1>
 													</div>
 												</a>
@@ -58,7 +58,7 @@
 												<div class="col-sm-3 link">
 												<a href="/bo/premios/premios_transito">
 													<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>">
-														<i class="fa fa-check fa-3x"></i>
+														<i class="fa fa-check fa-5x"></i>
 														<h1>Premios en Transito</h1>
 													</div>
 												</a>
@@ -66,7 +66,7 @@
 												<div class="col-sm-3 link">
 												<a href="/bo/premios/premios_embarcados">
 													<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>">
-														<i class="fa fa-car fa-3x"></i>
+														<i class="fa fa-car fa-5x"></i>
 														<h1>Premios Entregados </h1>
 													</div>
 												</a>

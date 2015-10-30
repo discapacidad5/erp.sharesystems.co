@@ -1,5 +1,5 @@
 			<!-- MAIN CONTENT -->
-			<div id="content" >
+			<div id="content" style="margin-top: 5em" >
 				<div class="row">
 					<div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
 						<h1 class="page-title txt-color-blueDark">
@@ -43,51 +43,48 @@
 						<div class="row">
 							<div class="col-sm-1"></div>						
 							<div class="col-sm-9">
-												<div class="col-sm-2 link">
+												<div class="col-sm-1 link">
 																		
 												</div>
-												<div class="col-sm-3 link">
+												<div class="col-sm-2 link">
 													<a href="/bo/inventario/documento">
-														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:#2086bf;">
+														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>;">
 															<i class="fa fa-edit fa-3x"></i>
-															<h1>Documento<br>&nbsp</h1>
+															<h4>Documento</h4>
 														</div>
 													</a>
 												</div>
 											
-												<div class="col-sm-3 link">
+												<div class="col-sm-2 link">
 													<a href="/bo/inventario/inventarioEntradaAlta">
-														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:#2086bf;">
+														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>;">
 															<i class="fa fa-edit fa-3x"></i>
-															<h1>Entrada<br>&nbsp</h1>
+															<h1>Entrada</h1>
 														</div>
 													</a>
 												</div>												
-												<div class="col-sm-3 link">
+												<div class="col-sm-2 link">
 													<a href="/bo/inventario/inventarioSalidaAlta">
-														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:#2086bf;">
+														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>;">
 															<i class="fa fa-edit fa-3x"></i>
-															<h1>Salida<br>&nbsp</h1>
+															<h1>Salida</h1>
+														</div>
+													</a>
+												</div>
+												
+												<div class="col-sm-2 link">
+													<a href="/bo/inventario/bloqueo">
+														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>;">
+															<i class="fa fa-lock fa-3x"></i>
+															<h1>Bloqueo</h1>
 														</div>
 													</a>
 												</div>
 												<div class="col-sm-2 link">
-																		
-												</div>
-												
-												<div class="col-sm-3 link">
-													<a href="/bo/inventario/bloqueo">
-														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:#2086bf;">
-															<i class="fa fa-lock fa-3x"></i>
-															<h1>Bloqueo<br>&nbsp</h1>
-														</div>
-													</a>
-												</div>
-												<div class="col-sm-3 link">
 													<a href="/bo/inventario/historial_Inventario">
-														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:#2086bf;">
+														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>;">
 															<i class="fa fa-edit fa-3x"></i>
-															<h1>Historial <br>&nbsp</h1>
+															<h1>Historial</h1>
 														</div>
 													</a>
 												</div>								

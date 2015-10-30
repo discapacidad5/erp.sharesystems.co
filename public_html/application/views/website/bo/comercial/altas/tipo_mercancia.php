@@ -43,15 +43,13 @@
 						<div class="widget-body no-padding smart-form">
                 <fieldset>
                   <div class="contenidoBotones">
-						<div class="row">
-						      <div class="col col-sm-3 col-xs-3 col-lg-3" >
-						      </div>
+						<div class="row">	
 							<?php foreach ($tipos as $tipo ) {?>
-								<div class="col col-sm-2 col-xs-2 col-lg-2" >
+								<div class="col col-sm-3 col-xs-3 col-lg-3" >
 									<a href="/bo/mercancia/nueva_mercancia?id=<?php echo $tipo->id; ?>" style="height: 10rem;">
 										<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
 											<i class="fa fa-tags fa-5x"></i>
-											<h1><?php echo $tipo->descripcion; ?></h1>
+											<h4><?php echo $tipo->descripcion; ?></h4>
 										</div>
 									</a>
 								</div>

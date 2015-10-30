@@ -1,13 +1,14 @@
 
 <!-- MAIN CONTENT -->
-<div id="content">
+<div id="content" style="margin-top: 5em">
 	<div class="row">
 		<div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
-					<a class="backHome" href="/bo"><i class="fa fa-home"></i> Menu</a>
+					
 			<h1 class="page-title txt-color-blueDark">
+			<a class="backHome" href="/bo"><i class="fa fa-home"></i> Menu</a>
 				<span>> <a href="/bol/"> Logistico </a>
 				> <a href="/bo/logistico2/alta"> Alta </a>
-				> <a href="/bo/proveedor_software/"> Proveedor de Mensajeria </a>
+				> <a href="/bo/proveedor_mensajeria/"> Proveedor de Mensajeria </a>
 				>	Alta
 				</span>
 			</h1>

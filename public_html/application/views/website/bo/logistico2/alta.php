@@ -1,5 +1,5 @@
 			<!-- MAIN CONTENT -->
-			<div id="content" >
+			<div id="content" style="margin-top: 6em">
 				<div class="row">
 					<div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
 						<h1 class="page-title txt-color-blueDark">
@@ -41,13 +41,13 @@
                 <fieldset>
                   <div class="contenidoBotones">
 						<div class="row">
-							<div class="col-sm-1"></div>						
-							<div class="col-sm-9">
+							<div class="col-sm-2"></div>						
+							<div class="col-sm-8">
 								<div class="col-sm-3 link">
 													<a href="/bo/almacen/index">
-														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:#2086bf;">
-															<i class="fa fa-edit fa-3x"></i>
-															<h1>Almacen<br>&nbsp</h1>
+														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>;">
+															<i class="fa fa-edit fa-2x"></i>
+															<h4>Almacen</h4>
 														</div>
 													</a>
 												</div>
@@ -55,18 +55,17 @@
 																								
 												<div class="col-sm-3 link">
 													<a href="/bo/comercial/carrito_de_compras">
-														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:#2086bf;">
-															<i class="fa fa-edit fa-3x"></i>
-															<h1>Mercancia<br>&nbsp</h1>
+														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>;">
+															<i class="fa fa-edit fa-2x"></i>
+															<h4>Mercancia</h4>
 														</div>
 													</a>
 												</div>
 												<div class="col-sm-3 link">
 													<a href="/bo/comercial/actionProveedor">
 														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-															<i class="fa fa-truck fa-3x"></i>
-															<h1>Proveedor<br>&nbsp</h1>
-
+															<i class="fa fa-truck fa-2x"></i>
+															<h4>Proveedor</h4>
 														</div>
 													</a>
 												</div>
@@ -74,24 +73,26 @@
 												<div class="col-sm-3 link">
 													<a href="/bo/proveedor_mensajeria/index">
 														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-															<i class="fa fa-send fa-3x"></i>
-															<h1>Proveedor Mensajeria</h1>
+															<i class="fa fa-send fa-2x"></i>
+															<h5>Proveedor Mensajeria</h5>
 														</div>
 													</a>
 												</div>
 												<div class="col-sm-3 link">
 													<a href="/bo/cedis/index">
-														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:#2086bf;">
-															<i class="fa fa-edit fa-3x"></i>
-															<h1>Cedis<br>&nbsp</h1>
+														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>;">
+															<i class="fa fa-edit fa-2x"></i>
+															<h5>Cedis</h5>
+															<h4>.</h4>
 														</div>
 													</a>
 												</div>
 													<div class="col-sm-3 link">
 													<a href="/bo/usuarios/menuAltaUsuarioCedi">
-														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:#2086bf;">
-															<i class="fa fa-edit fa-3x"></i>
-															<h1>Usuario Cedi<br>&nbsp</h1>
+														<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>;">
+															<i class="fa fa-edit fa-2x"></i>
+															<h5>Usuario Cedi</h5>
+															<h4>.</h4>
 														</div>
 													</a>
 												</div>												

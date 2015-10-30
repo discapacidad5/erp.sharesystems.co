@@ -65,7 +65,7 @@
 		<div id="main" role="main">
 
 			<!-- MAIN CONTENT -->
-			<div id="content" class="container">
+			<div id="content" class="container" style="margin-top: 0">
 
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 hidden-xs hidden-sm">

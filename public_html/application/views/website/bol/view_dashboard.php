@@ -4,7 +4,7 @@ $ci = &get_instance ();
 $ci->load->model ( "model_permissions" );
 ?>
 <!-- MAIN CONTENT -->
-<div id="content">
+<div id="content" style="margin-top: -10px">
 
 	<!-- row -->
 	<div class="row">
@@ -19,7 +19,7 @@ $ci->load->model ( "model_permissions" );
 			<div class="well well-sm">
 				<div class="row">
 					<div class="col-sm-12 col-md-12 col-lg-4"
-						style="margin-top: 12rem;">
+						style="margin-top: 6rem;">
 						<div class="well well-light well-sm no-margin no-padding">
 							<div class="row">
 								<div class="col-sm-12">
@@ -58,9 +58,9 @@ $ci->load->model ( "model_permissions" );
 									<a href="/bo/logistico2/alta">
 										<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
 											<i class="fa fa-edit fa-3x"></i>
-											<h1>
+											<h4>
 												<br /> Alta
-											</h1>
+											</h4>
 										</div>
 									</a>
 								</div>
@@ -69,10 +69,10 @@ $ci->load->model ( "model_permissions" );
 									<a href="/bo/inventario/index">
 										<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
 											<i class="fa fa-cubes fa-3x"></i>
-											<h1>
+											<h4>
 												<br />
 												Inventario
-											</h1>
+											</h4>
 										</div>
 									</a>
 								</div>
@@ -81,9 +81,9 @@ $ci->load->model ( "model_permissions" );
 									<a href="/bo/logistico2/pedidos">
 										<div
 											class="minh well well-sm txt-color-white text-center link_dashboard"
-											style="background: #2086bf;">
+											style="background: #006;">
 											<i class="fa fa-edit fa-3x"></i>
-											<h1>Pedidos / Embarque</h1>
+											<h4>Pedidos / Embarque</h4>
 										</div>
 									</a>
 								</div>
@@ -92,9 +92,9 @@ $ci->load->model ( "model_permissions" );
 									<a href="/bo/premios/index">
 										<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
 											<i class="fa fa-trophy fa-3x"></i>
-											<h1>
+											<h4>
 												Premios / <br />Entrega
-											</h1>
+											</h4>
 										</div>
 									</a>
 								</div>
@@ -103,10 +103,10 @@ $ci->load->model ( "model_permissions" );
 									<a href="#">
 										<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
 											<i class="fa fa-book fa-3x"></i>
-											<h1>
+											<h4>
 												<br />
 												Reportes
-											</h1>
+											</h4>
 										</div>
 									</a>
 								</div>
@@ -114,11 +114,10 @@ $ci->load->model ( "model_permissions" );
 								<div class="col-sm-4 link">
 									<a href="#">
 										<div class="minh well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">
-											<i class="fa fa-folder fa-3x"></i>
-											<h1>
-												<br />
+											<i class="fa fa-folder fa-5x"></i>
+											<h4>
 												Archivero
-											</h1>
+											</h4>
 										</div>
 									</a>
 								</div>
