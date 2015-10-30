@@ -38,13 +38,14 @@
 	   			<?php 
 	   	}?>
 
-<h4 class="pull-right" style="margin-right: 1em"><strong>Haz click en el Ícono 
-<i class="fa fa-home"></i> de la Izquierda para desplegar el Menú</strong></h4>
 
 <!-- collapse menu button -->
 				<div id="hide-menu" class="btn-header">				    
 					<span> <a href="javascript:void(0);" data-action="toggleMenu" title="Collapse Menu"><i class="fa fa-home"></i> </span>
 				</div>
+				<h4 class="pull-right" style="margin-right: 1em"><strong>Haz click en el Ícono 
+<i class="fa fa-home"></i> de la Izquierda para desplegar el Menú</strong></h4>
+
 <!-- END collapse menu button -->
 
 <aside id="left-panel">

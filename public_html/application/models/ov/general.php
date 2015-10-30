@@ -3,7 +3,7 @@
 class general extends CI_Model
 {
 	function IsActivedPago($id){
-		$q = $this->db->query('select id_estatus from user_profiles where user_id = '.$id);
+		$q = $this->db->query('select estatus from user_profiles where user_id = '.$id);
 		$estado = $q->result();
 	
 		if($estado[0]->estatus == 'ACT'){

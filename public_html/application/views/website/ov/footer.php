@@ -38,6 +38,14 @@
 							'<h5>Foto</h5>'+
 							'</div>'+
 						'</a>'+
+					'</div>'+
+					'<div class="col-sm-4">' +
+						'<a href="auth/change_password">' +
+							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>;">' +
+							'<i class="fa fa-unlock fa-5x"></i>'+
+							'<h5>Contraseña</h5>'+
+							'</div>'+
+						'</a>'+
 					'</div>'
 		});
 		});
@@ -135,14 +143,14 @@
 							'</div>'+
 						'</a>'+
 						'</div></td></tr><tr><td>'+
-					'<div class="col-sm-4">' +
-						'<a href="escuela_negocios/promociones">' +
-							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>">'+
-								'<i class="fa fa-gift fa-5x"></i>'+
-								'<h5>Promociones</h5>'+
+						'<div class="col-sm-4">' +
+						'<a href="compras/estadistica">' +
+							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>;">' +
+							'<i class="fa fa-bar-chart-o fa-5x"></i>'+
+							'<h5>Estadísticas</h5>'+
 							'</div>'+
-						'</a>'+
-					'</div>' +	
+						'</a>'+	
+						'</div>' +				
 					'<div class="col-sm-4">' +
 						'<a href="escuela_negocios/eventos">' +
 							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">' +
@@ -165,23 +173,7 @@
 							'<i class="fa fa-file-video-o fa-5x"></i>'+
 							'<h5>Videos</h5>'+
 							'</div>'+
-						'</a>'+
-						'</div></td></tr><tr><td>'+
-					'<div class="col-sm-4">' +
-						'<a href="escuela_negocios/reconocimientos">' +
-							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>">'+
-								'<i class="fa fa-star fa-5x"></i>'+
-								'<h5>Reconocimientos</h5>'+
-							'</div>'+
-						'</a>'+
-					'</div>' +	
-					'<div class="col-sm-4">' +
-						'<a href="compras/estadistica">' +
-							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_2_color?>;">' +
-							'<i class="fa fa-bar-chart-o fa-5x"></i>'+
-							'<h5>Estadísticas</h5>'+
-							'</div>'+
-						'</a>'+
+						'</a>'+						
 					'</div></td></tr></table>'
 		});
 		});
@@ -189,10 +181,10 @@
 		bootbox.dialog({
 			message: '<table width="100%"><tr><td>'+
 					'<div class="col-sm-4">' +
-						'<a href="cgeneral/soporte_tecnico_ver_redes">' +
+						'<a href="cgeneral/videollamada">' +
 							'<div class="well well-sm txt-color-white text-center link_dashboard" style="background:<?=$style[0]->btn_1_color?>">'+
-								'<i class="fa fa-support fa-5x"></i>'+
-								'<h5>Soporte Técnico</h5>'+
+								'<i class="fa fa-video-camera fa-5x"></i>'+
+								'<h5>Videollamadas</h5>'+
 							'</div>'+
 						'</a>'+
 					'</div>' +	
